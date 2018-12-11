@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Rojo Delicias website">
+<meta name="keywords" content="cafe, menu, postres, desayunos, huevo, frapuccino, bebidas, musica, comida, hamburguesas, wraps, rojo delicias, paninis, baguettes, huevo, omelette, waffle, hot cakes">
+<meta name="author" content="Alexis Barba">
+
+
+<!-- favicon -->
+<link rel="icon" href="images/thumbnail/solo.png">
+<!-- page title -->
+<title>Canasta - Rojo Delicias</title>
+<!-- bootstrap css -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<!-- css -->
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/animate.css" rel="stylesheet">
+<link href="assets/css/bootstrap-datetimepicker.css" rel="stylesheet">
+<!-- fonts -->
+<link href="assets/css/css_002.css" rel="stylesheet">
+<link href="assets/css/css.css" rel="stylesheet">
+<link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="assets/css/FontAwesome.otf" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body style="overflow: visible;">
+
+<!-- preloader -->
+<div id="preloader" style="display: none;">
+    <div class="spinner spinner-round"></div>
+</div>
+<!-- / preloader -->
+
+<div id="top"></div>
+
+
+<!-- header -->
+<header>
+    <nav class="navbar navbar-default dark-bg page-nav navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/thumbnail/logo-inline.png" alt="logo" class="inline-logo"> <img src="images/thumbnail/logo-collapsed.png" alt="logo" class="collapsed-logo"></a>
+            </div><!-- / navbar-header -->
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Menu.html">MENU</a></li>
+                    <li class="active"><a href="#">CANASTA</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div><!-- / container -->
+    </nav>
+</header>
+<!-- / header -->
+
+
+<!-- content -->
+<section id="opening" class="parallax-background">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 opening-box">
+                    <div class="page-header wsub dark text-center">
+                        <h2 class="text-primary">Horario de apertura</h2>
+                        <div class="separator-line-center primary-bg-color medium-spacing">&nbsp;</div>
+                        <h5 class="sub-title">Visítanos</h5>
+                    </div><!-- / page-header -->
+                    <div class="row">
+                        <div class="col-md-12 opening-left">
+                            <h3 class="text-primary opening-title space-bottom-30">Lunes a Sábado</h3>
+                            <p class="opening-hours">8:00 AM</p>
+                            <div class="separator-line-center primary-bg-color space-top space-bottom">&nbsp;</div>
+                            <p class="opening-hours">2:30 PM</p>
+                        </div><!-- / opening-left -->
+                        
+                        <div class="col-xs-12">
+                            <p class="opening-text"><a href="#contact" class="page-scroll">HAZ UNA RESERVACIÓN</a></p>
+                        </div>
+                    </div><!-- / row -->
+                </div><!-- / opening-box -->
+            </div><!-- / row -->
+        </div><!-- / container -->
+    </section>
+    <!-- / opening -->
+
+<!-- reservations -->
+<section id="reservations">
+    <div class="container">
+        <img src="images/reservations.png" alt="" class="reservations-img wow fadeInDown first" style="visibility: visible; animation-name: fadeInDown;">
+        <div class="page-header text-center">
+            <h2 class="text-primary">¿Cómo pedir una canasta?</h2>
+            <div class="separator-line-center large-spacing">&nbsp;</div>
+            <h4 class="sub-title">Paso 1. Llenar el formulario</h4>
+        </div><!-- / page-header -->
+
+        <div id="reservation-form" class="wow fadeIn first" style="visibility: visible; animation-name: fadeIn;">
+            
+            <form id="canasta" name="canasta" _lpchecked="1">
+                <div class="row">                              
+                    <div class="col-sm-6 reservation-left-area">
+                        <div class="form-group">
+                            <input class="form-control" name="nombre" placeholder="NOMBRE COMPLETO" type="text">
+                        </div><!-- / form-group -->
+                        <div class="form-group">
+                            <input class="form-control" name="email" placeholder="EMAIL" type="email">
+                        </div><!-- / form-group -->
+                        <div class="form-group">
+                            <input class="form-control" name="telefono" placeholder="TELÉFONO" type="text">
+                        </div><!-- / form-group -->
+                        <div class="form-group">
+                            <input class="form-control" name="horayfecha" id="elegidordefechayhora" placeholder="FECHA &amp; HORA DE ENTREGA" style="" value="" type="text">
+                        </div><!-- / form-group -->
+                        <div class="form-group">
+                            <input class="form-control" name="persona" placeholder="PERSONA A ENTREGAR" type="text">
+                        </div><!-- / form-group -->
+                    </div>
+                    <div class="col-sm-6 reservation-right-area">
+                        <div class="form-group">
+                            <select class="selectpicker form-control" name="postre">
+                                <optgroup label="POSTRE">
+                                    <option selected="selected">PAY DE FRESA</option>
+                                    <option>PAY DE GUAYABA</option>
+                                    <option>BROWNIE</option>
+                                    <option>PASTEL +$5</option>
+                                </optgroup>
+                            </select>
+                        </div><!-- / form-group -->
+                        <div class="form-group">
+                            <select class="selectpicker form-control" name="baguette">
+                                <optgroup label="BAGUETTE:">
+                                    <option selected="selected">BAGUETTE CLUB</option>
+                                    <option>TRES QUESOS</option>
+                                    <option>MEXICANO +$10</option>
+                                    <option>CHICKEN +$10</option>
+                                    <option>CARNES FRÍAS +$10</option>
+                                </optgroup>
+                            </select>
+                        </div><!-- / form-group -->
+                        <div class="form-group">
+                            <select class="selectpicker form-control" name="detalle">
+                                <optgroup label="DETALLE:">
+                                    <option selected="selected">ROSAS ROJAS</option>
+                                    <option>ROSAS BLANCAS</option>
+                                    <option>CHOCOLATE LINDT 100GR</option>
+                                </optgroup>
+                            </select>
+                        </div><!-- / form-group -->
+                        
+                        <div class="form-group">
+                            <input class="form-control" name="calle" placeholder="CALLE" type="text">
+                        </div><!-- / form-group -->
+                        <div class="form-group">
+                            <input class="form-control" name="colonia" placeholder="COLONIA" type="text">
+                        </div><!-- / form-group -->
+                        
+                    </div>
+                
+                    
+                    <!-- textarea and button -->
+                    <div class="col-xs-12 textarea-button">
+                        <div class="form-group">
+                            <textarea name="mensaje" class="form-control" rows="5" placeholder="NOTA"></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div><!-- / form-group -->
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-lg btn-primary-filled btn-form-submit btn-pill wow fadeInUp first" style="visibility: visible; animation-name: fadeInUp;"><i class="fa fa-send"></i><span><b>ENVIAR</b></span></button>
+                            <div class="clearfix"></div>
+                        </div><!-- / text-center -->
+                    </div>
+                    <!-- / textarea and button -->
+                </div><!-- / row -->
+            </form><!-- / reservationForm -->
+        </div><!-- / reservetion-form -->
+    </div><!-- / container -->
+</section>
+<!-- / reservations -->
+
+<!-- / content -->
+
+<!-- scroll to top -->
+<a href="#top" class="scroll-to-top page-scroll is-hidden" data-nav-status="toggle"><i class="fa fa-angle-up"></i></a>
+<!-- / scroll to top -->
+
+
+<!-- footer -->
+<footer>
+    <div class="container">
+        <p class="footer-info">© 2018 - <strong>Rojo</strong> Delicias.
+            <span class="social pull-right">
+                <a href="facebook.com/RojoDelicias"><i class="fa fa-facebook"></i></a>                
+                <a href="instagram.com/rojodelicias"><i class="fa fa-instagram"></i></a>
+            </span>
+        </p>
+    </div><!-- / container -->
+</footer>
+<!-- / footer -->
+
+<!-- javascript -->
+<script src="assets/js/jquery_002.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+
+<!-- sticky nav -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/scrolling-nav-sticky.js"></script>
+<!-- / sticky nav -->
+
+<!-- preloader -->
+<script src="assets/js/preloader.js"></script>
+<!-- / preloader -->
+
+<!-- wow -->
+<script src="assets/js/wow.js"></script>
+<script>
+new WOW().init();
+</script>
+<!-- / wow -->
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby8FPSdPrIBPTdQa2jVVQo7qpojVft6oADlvF4O8jBikBVplgIz/exec'
+    const form = document.forms['canasta']
+    
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+<!-- date-time picker -->
+<script src="assets/js/moment.js"></script>
+<script src="assets/js/bootstrap-datetimepicker.js"></script>
+<script>
+    $(function () {
+        $('#elegidordefechayhora').datetimepicker();
+    });
+</script>
+<!-- / date-time picker -->
+
+<!-- hide nav -->
+<script src="assets/js/hide-nav.js"></script>
+<!-- / hide nav -->
+
+<!-- / javascript -->
+
+
+
+</body></html>
