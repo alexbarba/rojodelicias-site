@@ -1,5 +1,5 @@
 //<![CDATA[
-$(window).on("load", function() {
+window.onload = function() {
 	// makes sure the whole site is loaded
 	$("#preloader")
 		.delay(350)
@@ -7,5 +7,5 @@ $(window).on("load", function() {
 	$("body")
 		.delay(350)
 		.css({overflow: "visible"});
-});
+};
 //]]>
