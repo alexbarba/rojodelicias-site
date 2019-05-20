@@ -3,6 +3,7 @@
 		{
 			"name": "Entradas",
 			"img": "/images/medium/hot-cakes.jpg",
+			"show": false,
 			"products": [
 				{
 					"name": "Hot Cakes",
@@ -64,6 +65,7 @@
 		{
 			"name": "Delicias Ligeras",
 			"img": "/images/medium/yogurt-con-fruta.jpg",
+			"show": false,
 			"products": [
 				{
 					"name": "Fruta de temporada",
@@ -95,6 +97,7 @@
 		{
 			"name": "Omelettes",
 			"img": "/images/medium/omelette.jpg",
+			"show": false,
 			"description": "Incluyen café de olla",
 			"products": [
 				{
@@ -156,6 +159,7 @@
 		{
 			"name": "Huevos",
 			"description": "Incluyen café de olla",
+			"show": false,
 			"img": "/images/medium/machaca.jpg",
 			"products": [
 				{
@@ -165,19 +169,19 @@
 					"coffe": true
 				},
 				{
-					"name": "Rancheros ",
+					"name": "Rancheros",
 					"description": "Se acompaña con frijoles y chilaquiles.",
 					"price": 59.0,
 					"coffe": true
 				},
 				{
-					"name": "A la Mexicana ",
+					"name": "A la Mexicana",
 					"description": "Se acompaña de frijoles y chilaquiles.",
 					"price": 65.0,
 					"coffe": true
 				},
 				{
-					"name": "Norteños ",
+					"name": "Norteños",
 					"description": "Con machaca y tortilla de harina, se acompaña con frijoles y chilaquiles.",
 					"price": 75.0,
 					"coffe": true
@@ -205,6 +209,7 @@
 		{
 			"name": "Delicias Mexicanas",
 			"description": "Incluyen café de olla",
+			"show": false,
 			"img": "/images/medium/chilaquiles.jpg",
 			"products": [
 				{
@@ -218,7 +223,7 @@
 					"coffe": true
 				},
 				{
-					"name": "Chilaquiles con Pollo ",
+					"name": "Chilaquiles con Pollo",
 					"price": 69.0,
 					"coffe": true
 				},
@@ -258,6 +263,7 @@
 		{
 			"name": "Baguettes",
 			"description": "Aderezo a elección: BBQ, Ranch, César, Chipotle, vinagreta, Mostaza y miel, Mil islas y Blue cheesse",
+			"show": false,
 			"products": [
 				{
 					"name": "Chicken",
@@ -293,6 +299,7 @@
 		},
 		{
 			"name": "Wraps",
+			"show": false,
 			"products": [
 				{
 					"name": "Mexicano",
@@ -318,6 +325,7 @@
 		},
 		{
 			"name": "Paninis",
+			"show": false,
 			"description": "Aderezo a elección: BBQ, Ranch, César, Chipotle, vinagreta, Mostaza y miel, Mil islas y Blue cheesse.",
 			"products": [
 				{
@@ -369,6 +377,7 @@
 		},
 		{
 			"name": "Sandwichs",
+			"show": false,
 			"img": "/images/medium/club-sandwich.jpg",
 			"products": [
 				{
@@ -383,7 +392,6 @@
 				},
 				{
 					"name": "Sandwich o torta",
-					"price": 70.0,
 					"description": [
 						{
 							"name": "Panela o pechuga de pavo",
@@ -403,6 +411,7 @@
 		},
 		{
 			"name": "Ensaladas",
+			"show": false,
 			"description": "Aderezo a elección: BBQ, Ranch, César, Chipotle, vinagreta, Mostaza y miel, Mil islas y Blue cheesse.",
 			"products": [
 				{
@@ -440,6 +449,7 @@
 		{
 			"name": "Hamburguesas",
 			"img": "/images/medium/la-tri.jpg",
+			"show": false,
 			"description": "Acompañadas de papas a la francesa o papas gajo.",
 			"products": [
 				{
@@ -471,6 +481,7 @@
 		},
 		{
 			"name": "Barra Fría",
+			"show": false,
 			"img": "/images/medium/frapuccino-ferrero.jpg",
 			"products": [
 				{
@@ -662,6 +673,7 @@
 		},
 		{
 			"name": "Barra Caliente",
+			"show": false,
 			"img": "/images/medium/cafe-olla.jpg",
 			"products": [
 				{
