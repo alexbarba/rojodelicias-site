@@ -32,13 +32,14 @@
 </head>
 
 <body style="overflow: visible;">
-    
     <!-- preloader -->
-    <div id="preloader" style="display: none;">
+<script src="../assets/js/preloader.js"></script>
+<!-- / preloader -->
+    <!-- preloader -->
+    <div id="preloader" style="display: block;">
         <div class="spinner spinner-round"></div>
     </div>
     <!-- / preloader -->
-
     <div id="top"></div>
 
 <!-- header -->
@@ -93,7 +94,7 @@
                             </div>
                         </div><!-- / menu-items -->
                         <div class="col-md-6 menu-items wow fadeIn first" style="visibility: visible; animation-name: fadeIn;">
-                            <div v-for="(product,index) in categorie.products" v-if="index >= categorie.products.length/2">
+                            <div v-for="(product,index) in categorie.products" v-if="categorie.products.length%2==0 ? index >= categorie.products.length/2 + 1 : index >= categorie.products.length/2">
                                 <h5 class="food-title">{{ product.name }}&ensp;<i class="fa fa-coffee" v-if="product.coffe"></i>
                                     <template v-if="product.price">
                                         <span class="pull-right food-price text-primary" v-if="!Array.isArray(product.price)">${{ product.price }}.00</span>
@@ -145,9 +146,7 @@
 <script src="../assets/js/scrolling-nav-sticky.js"></script>
 <!-- / sticky nav -->
 
-<!-- preloader -->
-<script src="../assets/js/preloader.js"></script>
-<!-- / preloader -->
+
 
 <!-- wow -->
 <script src="../assets/js/wow.js"></script>
@@ -221,6 +220,7 @@ $('.lightbox').each(function() {
             
         },
         updated() {
+            $("#preloader").css({display: "none"});
         }
     })
 
