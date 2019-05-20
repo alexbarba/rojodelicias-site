@@ -1,6 +1,7 @@
 {
 	"categorias": [
 		{
+			"key": 1,
 			"name": "Entradas",
 			"img": "/images/medium/hot-cakes.jpg",
 			"show": false,
@@ -63,6 +64,7 @@
 			]
 		},
 		{
+			"key": 2,
 			"name": "Delicias Ligeras",
 			"img": "/images/medium/yogurt-con-fruta.jpg",
 			"show": false,
@@ -95,6 +97,7 @@
 			]
 		},
 		{
+			"key": 3,
 			"name": "Omelettes",
 			"img": "/images/medium/omelette.jpg",
 			"show": false,
@@ -157,6 +160,7 @@
 			]
 		},
 		{
+			"key": 4,
 			"name": "Huevos",
 			"description": "Incluyen café de olla",
 			"show": false,
@@ -207,6 +211,7 @@
 			]
 		},
 		{
+			"key": 5,
 			"name": "Delicias Mexicanas",
 			"description": "Incluyen café de olla",
 			"show": false,
@@ -261,6 +266,7 @@
 			]
 		},
 		{
+			"key": 6,
 			"name": "Baguettes",
 			"description": "Aderezo a elección: BBQ, Ranch, César, Chipotle, vinagreta, Mostaza y miel, Mil islas y Blue cheesse",
 			"show": false,
@@ -298,6 +304,7 @@
 			]
 		},
 		{
+			"key": 7,
 			"name": "Wraps",
 			"show": false,
 			"products": [
@@ -324,6 +331,7 @@
 			]
 		},
 		{
+			"key": 8,
 			"name": "Paninis",
 			"show": false,
 			"description": "Aderezo a elección: BBQ, Ranch, César, Chipotle, vinagreta, Mostaza y miel, Mil islas y Blue cheesse.",
@@ -376,6 +384,7 @@
 			]
 		},
 		{
+			"key": 9,
 			"name": "Sandwichs",
 			"show": false,
 			"img": "/images/medium/club-sandwich.jpg",
@@ -410,6 +419,7 @@
 			]
 		},
 		{
+			"key": 10,
 			"name": "Ensaladas",
 			"show": false,
 			"description": "Aderezo a elección: BBQ, Ranch, César, Chipotle, vinagreta, Mostaza y miel, Mil islas y Blue cheesse.",
@@ -447,6 +457,7 @@
 			]
 		},
 		{
+			"key": 11,
 			"name": "Hamburguesas",
 			"img": "/images/medium/la-tri.jpg",
 			"show": false,
@@ -480,6 +491,7 @@
 			]
 		},
 		{
+			"key": 12,
 			"name": "Barra Fría",
 			"show": false,
 			"img": "/images/medium/frapuccino-ferrero.jpg",
@@ -672,6 +684,7 @@
 			]
 		},
 		{
+			"key": 13,
 			"name": "Barra Caliente",
 			"show": false,
 			"img": "/images/medium/cafe-olla.jpg",
