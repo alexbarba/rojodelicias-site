@@ -724,19 +724,11 @@
 				},
 				{
 					"name": "Brownie",
-<<<<<<< HEAD
 					"price": 38.0
 				},
 				{
 					"name": "Brownie C/Nieve",
 					"price": 48.0
-=======
-					"price": 32.0
-				},
-				{
-					"name": "Brownie C/Nieve",
-					"price": 42.0
->>>>>>> 12f8e9a2551a4042e291fb0f75a8dc85a8b8857b
 				}
 			]
 		}
