@@ -3261,10 +3261,6 @@ body.demo {
 	margin: 0 0 0 0;
 	cursor: pointer;
 }
-.menu-section:hover {
-	border-bottom: 2px solid #8a0808;
-	box-shadow: 0px 2px 0px #888;
-}
 
 #app .menu-contenido {
 	padding-top: 8em;

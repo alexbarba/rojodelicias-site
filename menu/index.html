@@ -104,7 +104,7 @@
                         <img v-bind:src="'..' + categorie.img" alt="" class="food-img wow fadeInUp first" style="visibility: visible; animation-name: fadeInUp;">
                     </template>
                     <div class="row">
-                        <div class="col-md-6 menu-items wow fadeIn first" style="visibility: visible; animation-name: fadeIn;">
+                        <div class="col-md-6 menu-items fadeIn first" style="visibility: visible; animation-name: fadeIn;">
                             <div v-for="(product,index) in categorie.products" v-if="index < categorie.products.length/2">
                                 <h5 class="food-title">{{ product.name }}&ensp;<i class="fa fa-coffee" v-if="product.coffe"></i>
                                     <template v-if="product.price">
@@ -115,7 +115,7 @@
                                 <p class="food-text" v-if="!Array.isArray(product.description)">{{ product.description }}</p>
                             </div>
                         </div><!-- / menu-items -->
-                        <div class="col-md-6 menu-items wow fadeIn first" style="visibility: visible; animation-name: fadeIn;">
+                        <div class="col-md-6 menu-items fadeIn first" style="visibility: visible; animation-name: fadeIn;">
                             <div v-for="(product,index) in categorie.products" v-if="index >= categorie.products.length/2">
                                 <h5 class="food-title">{{ product.name }}&ensp;<i class="fa fa-coffee" v-if="product.coffe"></i>
                                     <template v-if="product.price">
@@ -129,7 +129,7 @@
                                 </p>
                             </div>
                         </div><!-- / menu-items -->
-                        <div class="col-md-12 menu-items wow fadeIn first" style="visibility: visible; animation-name: fadeIn; text-align:center;" v-if="categorie.description">
+                        <div class="col-md-12 menu-items fadeIn first" style="visibility: visible; animation-name: fadeIn; text-align:center;" v-if="categorie.description">
                             </br>
                             <h3 class="food-text"><i class="fa fa-coffee" v-if="categorie.description=='Incluyen café de olla'"></i>{{categorie.description}}</h3>
                         </div><!-- / description -->
@@ -170,7 +170,7 @@
 
 
 
-<!-- wow -->
+<!-- wow Efecto de retraso-->
 <script src="../assets/js/wow.js"></script>
 <script>
 new WOW().init();
