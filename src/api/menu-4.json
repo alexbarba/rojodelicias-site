@@ -445,7 +445,7 @@
 			"show": false,
 			"products": [
 				{
-					"name": "Jugo",
+					"name": "Jugo de naranja",
 					"price": [
 						{
 							"name": "M",
@@ -456,7 +456,32 @@
 							"price": 38.0
 						}
 					],
-					"description": "Naranja o verde. M (300ml), G (500ml)"
+					"description": "M (300ml), G (500ml)"
+				},
+				{
+					"name": "Jugo Verde",
+					"price": 42,
+					"description": "(500ml) Naranja, nopal, apio, piña y perejil"
+				},
+				{
+					"name": "Jugo Digestivo",
+					"price": 42,
+					"description": "(500ml) Papaya, naranja y un toque de limón"
+				},
+				{
+					"name": "Jugo Antioxidante",
+					"price": 42,
+					"description": "(500ml) Naranja, fresa y chía"
+				},
+				{
+					"name": "Jugo Vitamínico",
+					"price": 42,
+					"description": "(500ml) Manzana, naranja y uva"
+				},
+				{
+					"name": "Jugo Antigripal",
+					"price": 42,
+					"description": "(500ml) Guayaba, naranja, apio y miel"
 				},
 				{
 					"name": "Naranjada",
