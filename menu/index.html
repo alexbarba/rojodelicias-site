@@ -109,7 +109,7 @@
                                 <h5 class="food-title">{{ product.name }}&ensp;<i class="fa fa-coffee" v-if="product.coffe"></i>
                                     <template v-if="product.price">
                                         <span class="pull-right food-price text-primary" v-if="!Array.isArray(product.price)">${{ product.price }}.00</span>
-                                        <span class="pull-right food-price text-primary" v-else>{{product.price[0].name}}&ensp;${{product.price[0].price}}.00&emsp;{{product.price[1].name}}&ensp;${{product.price[1].price}}.00</span>
+                                        <span class="pull-right food-price text-primary" v-else>{{ product.price[0].name }}&ensp;${{ product.price[0].price }}.00&emsp;{{ product.price[1].name }}&ensp;${{product.price[1].price}}.00</span>
                                     </template>
                                 </h5>
                                 <p class="food-text" v-if="!Array.isArray(product.description)">{{ product.description }}</p>
@@ -123,9 +123,9 @@
                                         <span class="pull-right food-price text-primary" v-else>{{product.price[0].name}}&ensp;${{product.price[0].price}}.00&emsp;{{product.price[1].name}}&ensp;${{product.price[1].price}}.00</span>
                                     </template>
                                 </h5>
-                                <p class="food-text" v-if="!Array.isArray(product.description)">{{ product.description }}</p>
-                                <p class="food-text" v-else v-for="description in product.description">{{ description.name }}
-                                    <span class="pull-right food-price text-primary">${{ description.price }}.00</span>
+                                <p class="food-text" v-if="!Array.isArray(product.description)" v-if="product.description">{{ product.description }}</p>
+                                <p class="food-text" v-else v-for="description in product.description" v-if="description.name">{{ description.name }}
+                                    <span class="pull-right food-price text-primary" v-if="description.price">${{ description.price }}.00</span>
                                 </p>
                             </div>
                         </div><!-- / menu-items -->
