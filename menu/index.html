@@ -31,10 +31,9 @@
 <link href="../assets/css/style.css" rel="stylesheet">
 <link href="../assets/css/animate.css" rel="stylesheet">
 <link href="../assets/css/magnific-popup.css" rel="stylesheet">
+<link href="../assets/css/categorias.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- fonts -->
-<link href="../assets/css/css_002.css" rel="stylesheet">
-<link href="../assets/css/css.css" rel="stylesheet">
+
 
 
 
@@ -81,18 +80,32 @@
 <div class="space-80">&nbsp;</div>
 <section id="menu-total">
     <div id="app">
+        <!--
+        <section class="all-box">
+            <div class="categories-box">
+                <div class="categories-tem">
+                    <div class="categorie-box">
+                        <div class="categorie-text" v-for="categorie in categories">
+                            {{categorie.name}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <div class="divisor-categoria"></div>
+    -->
         <section v-for="categorie in categories">
             <div class="container" >
-                <div class="page-header text-center menu-section" @click="handleClick(categorie.key)">
-                    <h2 class="text-primary panel">{{ categorie.name }}&nbsp;<i class="fa fa-caret-down" v-if="!categorie.show"></i><i class="fa fa-caret-up" v-else></i></h2>
+                <div class="page-header text-center menu-section">
+                    <h2 class="text-primary panel">{{ categorie.name }}&nbsp;</h2>
                 </div><!-- / page-header -->
-                <div class="menu-contenido" v-if="categorie.show">
+                <div class="menu-contenido">
                     <template v-if="categorie.img">
                         <img v-bind:src="'..' + categorie.img" alt="" class="food-img wow fadeInUp first" style="visibility: visible; animation-name: fadeInUp;">
                     </template>
                     <div class="row">
                         <div class="col-md-6 menu-items wow fadeIn first" style="visibility: visible; animation-name: fadeIn;">
-                            <div v-for="(product,index) in categorie.products" v-if="index <= categorie.products.length/2">
+                            <div v-for="(product,index) in categorie.products" v-if="index < categorie.products.length/2">
                                 <h5 class="food-title">{{ product.name }}&ensp;<i class="fa fa-coffee" v-if="product.coffe"></i>
                                     <template v-if="product.price">
                                         <span class="pull-right food-price text-primary" v-if="!Array.isArray(product.price)">${{ product.price }}.00</span>
@@ -103,7 +116,7 @@
                             </div>
                         </div><!-- / menu-items -->
                         <div class="col-md-6 menu-items wow fadeIn first" style="visibility: visible; animation-name: fadeIn;">
-                            <div v-for="(product,index) in categorie.products" v-if="categorie.products.length%2==0 ? index >= categorie.products.length/2 + 1 : index >= categorie.products.length/2">
+                            <div v-for="(product,index) in categorie.products" v-if="index >= categorie.products.length/2">
                                 <h5 class="food-title">{{ product.name }}&ensp;<i class="fa fa-coffee" v-if="product.coffe"></i>
                                     <template v-if="product.price">
                                         <span class="pull-right food-price text-primary" v-if="!Array.isArray(product.price)">${{ product.price }}.00</span>
@@ -124,7 +137,7 @@
                 </div>
             </div>
         </section>
-    </div>
+    </div
 
     
 
