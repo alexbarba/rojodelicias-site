@@ -687,7 +687,7 @@
 				{
 					"name": "Té",
 					"description": "(350ml) Manzanilla, hierbabuena, relajante, manzana-canela, limón y verde.",
-					"price": 20
+					"price": 20.0
 				},
 				{
 					"name": "Chai Latte",
