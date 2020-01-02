@@ -8,33 +8,18 @@
 			"products": [
 				{
 					"name": "Hot Cakes",
-					"description": "(3 pzas) Para preparar con miel, mermelada o lechera.",
-					"price": 42.0
-				},
-				{
-					"name": "Waffle Tropical",
-					"description": "Con melón, manzana, pera y fresa.",
-					"price": 45.0
-				},
-				{
-					"name": "Waffle Expresión ",
-					"description": "Con fresa y kiwi.",
+					"description": "(3 pzas) Decorados con azúcar glass y fresa.",
 					"price": 48.0
 				},
 				{
-					"name": "Waffle Especial",
-					"description": "Con plátano, cajeta, helado de vainilla y nuez.",
-					"price": 59.0
-				},
-				{
 					"name": "Pan Francés",
-					"description": "(3 pzas) Con canela y miel.",
-					"price": 35.0
+					"description": "(3 pzas) Decorados con azúcar glass y fresa.",
+					"price": 48.0
 				},
 				{
 					"name": "Molletes dulces",
-					"description": "Con mantequilla y endulzados con azúcar o mermelada de fresa.",
-					"price": 25.0
+					"description": "Con mantequilla.",
+					"price": 30.0
 				},
 				{
 					"name": "Molletes Universitarios   ",
@@ -43,61 +28,132 @@
 				},
 				{
 					"name": "Molletes Mexicanos  ",
-					"description": "Con frijoles, queso gratinado, una deliciosa salsa pico de gallo. Elígelos con sirloin o chorizo.",
-					"price": 50.0
+					"description": "Frijoles, queso gratinado, salsa pico de gallo. Elígelos con sirloin o chorizo.",
+					"price": 55.0
 				},
 				{
-					"name": "Quesadilla",
-					"description": "Tortilla grande de trigo, rellena de queso.",
-					"price": 20.0
+					"name": "Sandwich o torta",
+					"description": [
+						{
+							"name": "Panela o pechuga de pavo",
+							"price": 38.0
+						},
+						{
+							"name": "Pollo o pierna",
+							"price": 42.0
+						}
+					]
 				},
 				{
-					"name": "Quesadilla Especial   ",
-					"description": "Elige tu quesadilla con asada, chorizo, arrachera, jamón, champiñones o rajas y elote.",
-					"price": 30.0
+					"name": "Sandwich Marinero",
+					"description": "Camarones, pimiento morrón y cebolla con queso gratinado. Añade papas por +$12",
+					"price": 52.0
 				}
 			]
 		},
 		{
 			"key": 2,
-			"name": "Delicias Ligeras",
+			"name": "Waffles",
 			"img": "/images/medium/yogurt-con-fruta.jpg",
 			"show": false,
 			"products": [
 				{
-					"name": "Fruta de temporada",
-					"description": "Con cottage +$12.",
-					"price": 28.0
-				},
-				{
-					"name": "Yogurt con fruta",
-					"description": "Con granola y miel.",
+					"name": "Waffle",
+					"description": "Azúcar y canela.",
 					"price": 45.0
 				},
 				{
-					"name": "Escamocha",
-					"description": "Fruta de temporada con jugo de naranja.",
-					"price": 40.0
+					"name": "Waffle Especial ",
+					"description": "Plátano, cajeta, nuez y nieve.",
+					"price": 70.0
 				},
 				{
-					"name": "Biónico",
-					"description": "Fruta de temporada con pasas, coco.",
-					"price": 45.0
+					"name": "Waffle Ferrero",
+					"description": "Nutella, nuez, nieve y un chocolate Ferrero Rocher.",
+					"price": 75.0
 				},
 				{
-					"name": "Biónico Especial",
-					"description": "Con yogurt, almendras, nuez y una rica bola de nieve.",
-					"price": 59.0
+					"name": "Waffle Expresión",
+					"description": "Fresa y kiwi.",
+					"price": 75.0
+				},
+				{
+					"name": "Waffle Frutal",
+					"description": "Manzana, melón, fresa, kiwi, uva, arándano y lechera.",
+					"price": 75.0
+				},
+				{
+					"name": "Waffle Pay Fresa",
+					"description": "Queso-crema, fresas, mermelada de fresa y lechera.",
+					"price": 65.0
 				}
 			]
 		},
 		{
 			"key": 3,
-			"name": "Omelettes",
+			"name": "Delicias Ligeras",
+			"img": "/images/medium/yogurt-con-fruta.jpg",
+			"show": false,
+			"description": "Frutas disponibles: Manzana roja y verde, melón, papaya, pera, fresa, plátano y uva (pueden variar según temporada). Adicional: Granola +$5, pasas +$5, lechera +$6, nuez +$8, almendra +$8",
+			"products": [
+				{
+					"name": "Plato de Fruta",
+					"description": "",
+					"price": 35.0
+				},
+				{
+					"name": "Yogur con fruta",
+					"description": "Con granola y miel.",
+					"price": 48.0
+				},
+				{
+					"name": "Escamocha",
+					"description": "Fruta de temporada con jugo de naranja y lechera.",
+					"price": 48.0
+				},
+				{
+					"name": "Biónico",
+					"description": "Preparado de fruta con una mezcla dulce, pasas y coco.",
+					"price": 55.0
+				},
+				{
+					"name": "Biónico Especial",
+					"description": "Biónico con yogur, almendras, nuez y nieve de vainilla.",
+					"price": 69.0
+				}
+			]
+		},
+		{
+			"key": 4,
+			"name": "Desayunos",
 			"img": "/images/medium/omelette.jpg",
 			"show": false,
 			"description": "Incluyen café de olla",
 			"products": [
+				{
+					"name": "Huevos al gusto ",
+					"description": "2 Ingredientes, revueltos o estrellados, acompañados de frijoles y chilaquiles. Opciones: Jamón, salchicha, tortilla, vegetales, pechuga de pavo, champiñones, tocino, chorizo ranchero, salsas o a la mexicana",
+					"price": 65.0,
+					"coffe": true
+				},
+				{
+					"name": "Divorciados",
+					"description": "Dos huevos estrellados sobre tortilla dorada y jamón, separados por salsa roja y verde.",
+					"price": 69.0,
+					"coffe": true
+				},
+				{
+					"name": "Norteños",
+					"description": "Dos huevos con machaca, se acompaña con frijoles y chilaquiles.",
+					"price": 80.0,
+					"coffe": true
+				},
+				{
+					"name": "Omelette al gusto ",
+					"description": "2 Ingredientes y queso, acompañados de frijoles y chilaquiles.",
+					"price": 69.0,
+					"coffe": true
+				},
 				{
 					"name": "Clásico ",
 					"description": "Jamón y queso mozzarella, se acompaña de frijoles y chilaquiles.",
@@ -107,25 +163,19 @@
 				{
 					"name": "Francés ",
 					"description": "Perejil, champiñones, cebolla blanca, tocino y queso mozzarella, se acompaña con frijoles y chilaquiles.",
-					"price": 65.0,
+					"price": 69.0,
 					"coffe": true
 				},
 				{
 					"name": "Vegetariano ",
-					"description": "Espinacas, champiñones, cebolla morada y queso mozzarella se acompaña de frijoles y chilaquiles.",
-					"price": 65.0,
+					"description": "Espinacas, champiñones, cebolla morada y queso mozzarella. Se acompaña de frijoles y chilaquiles.",
+					"price": 69.0,
 					"coffe": true
 				},
 				{
 					"name": "Ligero ",
 					"description": "3 claras de huevo, panela, espinacas y bañado en nuestra salsa verde, se acompaña de nopal asado y ensalada.",
 					"price": 75.0,
-					"coffe": true
-				},
-				{
-					"name": "De la Huerta",
-					"description": "Rajas, elote, cebolla morada y queso mozarella.",
-					"price": 69.0,
 					"coffe": true
 				},
 				{
@@ -137,70 +187,44 @@
 				{
 					"name": "Tres Quesos",
 					"description": "En salsa roja, de manchego, mozzarella y panela, se acompaña de frijoles y calabacita asada.",
-					"price": 69.0,
+					"price": 75.0,
 					"coffe": true
 				},
 				{
 					"name": "Del Mar",
 					"description": "Camarones, morrón rojo y perejil, gratinado con mozzarella, se acompaña con una entomatada y ensalada.",
-					"price": 95.0,
+					"price": 99.0,
 					"coffe": true
 				},
 				{
-					"name": "Delicia",
-					"description": "Salmón con nuestro aderezo especial de eneldo, se acompaña de frijoles y ensalada verde.",
-					"price": 95.0,
-					"coffe": true
-				}
-			]
-		},
-		{
-			"key": 4,
-			"name": "Huevos",
-			"description": "Incluyen café de olla",
-			"show": false,
-			"img": "/images/medium/machaca.jpg",
-			"products": [
-				{
-					"name": "Huevos al gusto",
-					"description": "1-2 Ingredientes, revueltos o estrellados, acompañados de frijoles y chilaquiles.",
-					"price": 59.0,
-					"coffe": true
+					"name": "Chilaquiles",
+					"price": 58.0,
+					"description": [
+						{
+							"name": "Con sombrero",
+							"price": 68.0
+						},
+						{
+							"name": "Pollo",
+							"price": 75.0
+						},
+						{
+							"name": "Arrachera",
+							"price": 85.0
+						},
+						{
+							"name": "Gratinados +$12"
+						}
+					]
 				},
 				{
-					"name": "Rancheros",
-					"description": "Se acompaña con frijoles y chilaquiles.",
-					"price": 59.0,
-					"coffe": true
-				},
-				{
-					"name": "A la Mexicana",
-					"description": "Se acompaña de frijoles y chilaquiles.",
-					"price": 65.0,
-					"coffe": true
-				},
-				{
-					"name": "Norteños",
-					"description": "Con machaca y tortilla de harina, se acompaña con frijoles y chilaquiles.",
-					"price": 75.0,
-					"coffe": true
-				},
-				{
-					"name": "Divorciados",
-					"description": "Dos huevos estrellados sobre tortilla dorada y jamón, separados por salsa roja y verde.",
-					"price": 69.0,
-					"coffe": true
-				},
-				{
-					"name": "Tortilla Jardinera",
-					"description": "Calabacín, pimiento rojo y verde cebola y papa, se acompaña con frijoles y una quesadilla de maíz.",
-					"price": 75.0,
-					"coffe": true
-				},
-				{
-					"name": "Tortilla Española",
-					"description": "Papas, chorizo y cebolla picada con perejil, se acompaña con bruschetta.",
+					"name": "Carne con chile",
 					"price": 80.0,
+					"coffe": true
+				},
+				{
+					"name": "Machaca a la Mexicana",
+					"price": 90.0,
 					"coffe": true
 				}
 			]
@@ -208,61 +232,48 @@
 		{
 			"key": 5,
 			"name": "Delicias Mexicanas",
-			"description": "Incluyen café de olla",
 			"show": false,
 			"img": "/images/medium/chilaquiles.jpg",
 			"products": [
 				{
-					"name": "Chilaquiles Naturales",
-					"price": 58.0,
-					"coffe": true
-				},
-				{
-					"name": "Chilaquiles con Sombrero",
-					"price": 65.0,
-					"coffe": true
-				},
-				{
-					"name": "Chilaquiles con Pollo",
-					"price": 69.0,
-					"coffe": true
-				},
-				{
-					"name": "Chilaquiles con Arrachera",
-					"price": 75.0,
-					"coffe": true
-				},
-				{
-					"name": "Enchiladas Clásicas",
+					"name": "Enchiladas",
 					"description": "(3 pzas) Rellenas de pollo, queso o pierna, rojas o verdes.",
-					"price": 65.0
+					"price": 68.0
 				},
 				{
 					"name": "Enfrijoladas",
 					"description": "(3 pzas) Rellenas de pollo bañadas en una exquisita salsa de frijol y queso.",
-					"price": 65.0
+					"price": 68.0
 				},
 				{
 					"name": "Enchiladas Suizas",
 					"description": "(3 pzas) Rellenas de pollo bañadas en salsa verde cremosa y queso gratinado.",
-					"price": 75.0
+					"price": 78.0
 				},
 				{
-					"name": "Machaca a la mexicana ",
-					"price": 75.0,
-					"coffe": true
+					"name": "Quesadilla ",
+					"price": 20.0,
+					"description": "Tortilla grande de trigo, rellena de queso."
 				},
 				{
-					"name": "Carne con chile",
-					"price": 75.0,
-					"coffe": true
+					"name": "Quesadilla rellena",
+					"description": [
+						{
+							"name": "Asada, chorizo o arrachera",
+							"price": 36.0
+						},
+						{
+							"name": "Jamón o champiñón y cebolla",
+							"price": 32.0
+						}
+					]
 				}
 			]
 		},
 		{
 			"key": 6,
 			"name": "Baguettes",
-			"description": "Aderezo a elección: BBQ, Ranch, César, Chipotle, vinagreta, Mostaza y miel, Mil islas y Blue cheesse",
+			"description": "Aderezo a elección",
 			"show": false,
 			"products": [
 				{
@@ -271,14 +282,9 @@
 					"price": 69.0
 				},
 				{
-					"name": "Club",
-					"description": "Pechuga de pavo con cebolla, lechuga, jitomate y queso manchego.",
-					"price": 59.0
-				},
-				{
 					"name": "Carnes frías",
 					"price": 69.0,
-					"description": "Jamón, salami, pepperoni y vegetales."
+					"description": "Jamón, salami, pepperoni, queso manchego y vegetales."
 				},
 				{
 					"name": "Mexicano",
@@ -289,11 +295,6 @@
 					"name": "Tres quesos",
 					"description": "Queso mozzarella, manchego, panela y champiñones.",
 					"price": 59.0
-				},
-				{
-					"name": "Monsieur",
-					"description": "Carne, queso y chorizo.",
-					"price": 75.0
 				}
 			]
 		},
@@ -301,6 +302,7 @@
 			"key": 7,
 			"name": "Wraps",
 			"show": false,
+			"description": "Acompañados de papas gajo.",
 			"products": [
 				{
 					"name": "Mexicano",
@@ -318,9 +320,9 @@
 					"description": "Pollo pesto, queso manchego y espinacas."
 				},
 				{
-					"name": "Ham cheesse",
-					"price": 65.0,
-					"description": "Jamón, queso, aguacate, lechuga y jitomate."
+					"name": "Camarón",
+					"price": 95.0,
+					"description": "Camarones (100 gr) salteados con jitomate, cebolla, pimiento rojo y queso manchego."
 				}
 			]
 		},
@@ -328,7 +330,7 @@
 			"key": 8,
 			"name": "Paninis",
 			"show": false,
-			"description": "Aderezo a elección: BBQ, Ranch, César, Chipotle, vinagreta, Mostaza y miel, Mil islas y Blue cheesse.",
+			"description": "Aderezo a elección.",
 			"products": [
 				{
 					"name": "Pizza",
@@ -351,11 +353,6 @@
 					"description": "Pollo, chimichurri, aceituna negra, tocino, queso y albahaca."
 				},
 				{
-					"name": "Tuna",
-					"price": 70.0,
-					"description": "Atún (100 grs), aceituna negra, cebolla morada, perejil, alcaparra, salsa de tomate y queso manchego."
-				},
-				{
 					"name": "Ibérico",
 					"price": 75.0,
 					"description": "Jamón serrano, queso mozzarella, albahaca."
@@ -369,17 +366,12 @@
 					"name": "Marimar",
 					"price": 95.0,
 					"description": "Camarones a la plancha (100 grs), queso gratinado, aderezo de tomates deshidratados, cebolla caramelizada y champiñones."
-				},
-				{
-					"name": "Noruego",
-					"price": 95.0,
-					"description": "Salmón, queso crema, morrón rojo, cebolla y alcaparras."
 				}
 			]
 		},
 		{
 			"key": 9,
-			"name": "Sandwichs",
+			"name": "Acompañamientos",
 			"show": false,
 			"img": "/images/medium/club-sandwich.jpg",
 			"products": [
@@ -389,26 +381,9 @@
 					"price": 75.0
 				},
 				{
-					"name": "Sandwich Marinero",
-					"description": "Camarones a la plancha con pimiento morrón y cebolla gratinados con queso mozzarella.",
-					"price": 45.0
-				},
-				{
-					"name": "Sandwich o torta",
-					"description": [
-						{
-							"name": "Panela o pechuga de pavo",
-							"price": 35.0
-						},
-						{
-							"name": "Pollo o pierna",
-							"price": 38.0
-						},
-						{
-							"name": "Combinado",
-							"price": 42.0
-						}
-					]
+					"name": "Papas",
+					"description": "Gajo o a la francesa.",
+					"price": 40.0
 				}
 			]
 		},
@@ -419,9 +394,9 @@
 			"description": "Aderezo a elección: BBQ, Ranch, César, Chipotle, vinagreta, Mostaza y miel, Mil islas y Blue cheesse.",
 			"products": [
 				{
-					"name": "Mediterránea",
-					"description": "Surimi preparado con mayonesa, queso crema, aceite de oliva, vegetales (hojas de lechuga y espinacas frescas, zanahoria, morrón, apio, pepino) y vinagreta.",
-					"price": 60.0
+					"name": "César",
+					"price": 65.0,
+					"description": "Lechuga orejona, pollo a la plancha, parmesano molido y crutones."
 				},
 				{
 					"name": "Di Mela",
@@ -430,23 +405,13 @@
 				},
 				{
 					"name": "Ligera",
-					"price": 60.0,
+					"price": 65.0,
 					"description": "Mix de lechugas, panela, zanahoria, pepino, espinacas, aguacate y apio."
 				},
 				{
-					"name": "César",
-					"price": 60.0,
-					"description": "Lechuga orejona, pollo a la plancha, parmesano molido y crutones."
-				},
-				{
 					"name": "Atún",
-					"price": 60.0,
+					"price": 65.0,
 					"description": "Lechuga picada, atún con queso crema, cebolla, apio, morrón, jitomate y pepino. Acompañada con galletas saladas."
-				},
-				{
-					"name": "Camarón",
-					"price": 95.0,
-					"description": "Camarones a la plancha, lechugas mixtas, pepino, aceituna negra, jitomate y parmesano molido."
 				}
 			]
 		},
@@ -461,11 +426,6 @@
 					"name": "Clásica",
 					"description": "Arrachera, queso amarillo, lechuga, jitomate y cebolla.",
 					"price": 65.0
-				},
-				{
-					"name": "Teriyaki",
-					"description": "Arrachera, teriyaki, cebolla asada, piña y aguacate.",
-					"price": 80.0
 				},
 				{
 					"name": "Marinera",
@@ -484,53 +444,13 @@
 				}
 			]
 		},
+		
 		{
 			"key": 12,
-			"name": "Barra Fría",
+			"name": "Bebidas",
 			"show": false,
 			"img": "/images/medium/frapuccino-ferrero.jpg",
 			"products": [
-				{
-					"name": "Malteada",
-					"description": "Fresa, vainilla, galleta y chocolate.",
-					"price": 40.0
-				},
-				{
-					"name": "Smoothie",
-					"description": "Fresa, fresa-kiwi, piña-kiwi, piña-coco, mango y frutos rojos.",
-					"price": 42.0
-				},
-				{
-					"name": "Chamoyada de mango",
-					"price": 48.0
-				},
-				{
-					"name": "Licuado",
-					"price": 30.0,
-					"description": [
-						{
-							"name": "Leche con fresa, plátano, mango, papaya, piña o melón."
-						},
-						{
-							"name": "Extra: Pídelo con avena, granola, pasas o arándano por ",
-							"price": 6.0
-						}
-					]
-				},
-				{
-					"name": "Agua Fresca",
-					"price": [
-						{
-							"name": "M",
-							"price": 20.0
-						},
-						{
-							"name": "G",
-							"price": 30.0
-						}
-					],
-					"description": "De fruta de temporada. M (500 ml) G (1 L)."
-				},
 				{
 					"name": "Jugo",
 					"price": [
@@ -547,24 +467,13 @@
 				},
 				{
 					"name": "Naranjada",
-					"price": 28.0
-				},
-				{
-					"name": "Naranjada Mineral",
-					"price": 32.0
+					"price": 32.0,
+					"description": "500ml"
 				},
 				{
 					"name": "Limonada",
-					"price": 28.0
-				},
-				{
-					"name": "Limonada Mineral",
-					"price": 32.0
-				},
-				{
-					"name": "Limonada fresa",
-					"price": 35.0,
-					"description": "(500ml) Con trazas de fresa."
+					"price": 32.0,
+					"description": "500ml"
 				},
 				{
 					"name": "Refresco",
@@ -585,13 +494,53 @@
 					"description": "M (300ml) G (500ml)."
 				},
 				{
-					"name": "Soda italiana",
+					"name": "Licuado",
 					"price": 30.0,
-					"description": "(500ml) Hawaiian Island, kiwi, coco, guayaba y sabores de temporada."
+					"description": [
+						{
+							"name": "(500ml) Leche con fresa, plátano, mango, papaya, piña o melón."
+						},
+						{
+							"name": "Extra: Pídelo con avena, granola, pasas o arándano por ",
+							"price": 6.0
+						}
+					]
 				},
 				{
-					"name": "Agua embotellada",
-					"price": 15.0
+					"name": "Agua Fresca",
+					"price": [
+						{
+							"name": "M",
+							"price": 20.0
+						},
+						{
+							"name": "G",
+							"price": 30.0
+						}
+					],
+					"description": "De fruta de temporada. M (500 ml) G (1 L)."
+				}
+			]
+		},
+		{
+			"key": 13,
+			"name": "Barra Fría",
+			"show": false,
+			"img": "/images/medium/frapuccino-ferrero.jpg",
+			"products": [
+				{
+					"name": "Malteada",
+					"description": "Fresa, vainilla, galleta y chocolate.",
+					"price": 48.0
+				},
+				{
+					"name": "Smoothie",
+					"description": "Fresa, fresa-kiwi, piña-kiwi, piña-coco, mango y frutos rojos.",
+					"price": 46.0
+				},
+				{
+					"name": "Chamoyada de mango",
+					"price": 48.0
 				},
 				{
 					"name": "Frapuccinos",
@@ -602,11 +551,11 @@
 					"price": [
 						{
 							"name": "M",
-							"price": 40.0
+							"price": 46.0
 						},
 						{
 							"name": "G",
-							"price": 46.0
+							"price": 50.0
 						}
 					]
 				},
@@ -615,11 +564,11 @@
 					"price": [
 						{
 							"name": "M",
-							"price": 46.0
+							"price": 52.0
 						},
 						{
 							"name": "G",
-							"price": 52.0
+							"price": 57.0
 						}
 					]
 				},
@@ -628,20 +577,7 @@
 					"price": [
 						{
 							"name": "M",
-							"price": 48.0
-						},
-						{
-							"name": "G",
 							"price": 55.0
-						}
-					]
-				},
-				{
-					"name": "Nutella",
-					"price": [
-						{
-							"name": "M",
-							"price": 54.0
 						},
 						{
 							"name": "G",
@@ -650,15 +586,28 @@
 					]
 				},
 				{
+					"name": "Nutella",
+					"price": [
+						{
+							"name": "M",
+							"price": 58.0
+						},
+						{
+							"name": "G",
+							"price": 64.0
+						}
+					]
+				},
+				{
 					"name": "Cajeta",
 					"price": [
 						{
 							"name": "M",
-							"price": 47.0
+							"price": 58.0
 						},
 						{
 							"name": "G",
-							"price": 54.0
+							"price": 64.0
 						}
 					]
 				},
@@ -667,18 +616,23 @@
 					"price": [
 						{
 							"name": "M",
-							"price": 65.0
+							"price": 69.0
 						},
 						{
 							"name": "G",
-							"price": 69.0
+							"price": 75.0
 						}
 					]
+				},
+				{
+					"name": "Chai Frappe",
+					"description": "(500ml)",
+					"price": 55.0
 				}
 			]
 		},
 		{
-			"key": 13,
+			"key": 14,
 			"name": "Barra Caliente",
 			"show": false,
 			"img": "/images/medium/cafe-olla.jpg",
@@ -701,74 +655,49 @@
 					"price": [
 						{
 							"name": "M",
-							"price": 20.0
+							"price": 22.0
 						},
 						{
 							"name": "G",
-							"price": 24.0
+							"price": 26.0
 						}
 					]
 				},
 				{
-					"name": "Espresso corto",
+					"name": "Espresso",
 					"price": 20.0
 				},
 				{
-					"name": "Capuccino Clásico",
-					"price": 30.0
+					"name": "Capuccino",
+					"price": 38.0
 				},
 				{
-					"name": "Capuccino Crema Irlandesa",
-					"price": 35.0
-				},
-				{
-					"name": "Capuccino Cajeta",
-					"price": 35.0
-				},
-				{
-					"name": "Capuccino Vainilla",
-					"price": 35.0
+					"name": "Capuccino Sabor",
+					"price": 45.0
 				},
 				{
 					"name": "Café Latte",
-					"price": 30.0
+					"price": 38.0
 				},
 				{
-					"name": "Café Latte Coco",
-					"price": 30.0
-				},
-				{
-					"name": "Shot de espresso adicional",
-					"price": 15.0
+					"name": "Café Sabor",
+					"price": 45.0
 				},
 				{
 					"name": "Té",
-					"description": "Manzanilla, hierbabuena, relajante, manzana-canela, limón y verde.",
-					"price": [
-						{
-							"name": "M",
-							"price": 20.0
-						},
-						{
-							"name": "G",
-							"price": 30.0
-						}
-					]
+					"description": "(350ml) Manzanilla, hierbabuena, relajante, manzana-canela, limón y verde.",
+					"price": 20
 				},
 				{
 					"name": "Chai Latte",
 					"description": "Mezcla de té con especias y leche. Sabores Vainilla, Guayaba, Chocolate, Verde o Fresa.",
-					"price": [
-						{
-							"name": "Caliente",
-							"price": 35.0
-						},
-						{
-							"name": "Frappe",
-							"price": 38.0
-						}
-					]
+					"price": 45.0
+				},
+				{
+					"name": "Chocolate Caliente",
+					"price": 38.0
 				}
+				
 			]
 		}
 	]
