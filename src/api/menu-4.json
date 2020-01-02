@@ -3,7 +3,6 @@
 		{
 			"key": 1,
 			"name": "Entradas",
-			"img": "/images/medium/hot-cakes.jpg",
 			"show": false,
 			"products": [
 				{
@@ -54,7 +53,6 @@
 		{
 			"key": 2,
 			"name": "Waffles",
-			"img": "/images/medium/yogurt-con-fruta.jpg",
 			"show": false,
 			"products": [
 				{
@@ -92,7 +90,6 @@
 		{
 			"key": 3,
 			"name": "Delicias Ligeras",
-			"img": "/images/medium/yogurt-con-fruta.jpg",
 			"show": false,
 			"description": "Frutas disponibles: Manzana roja y verde, melón, papaya, pera, fresa, plátano y uva (pueden variar según temporada). Adicional: Granola +$5, pasas +$5, lechera +$6, nuez +$8, almendra +$8",
 			"products": [
@@ -126,7 +123,6 @@
 		{
 			"key": 4,
 			"name": "Desayunos",
-			"img": "/images/medium/omelette.jpg",
 			"show": false,
 			"description": "Incluyen café de olla",
 			"products": [
@@ -234,7 +230,6 @@
 			"key": 5,
 			"name": "Delicias Mexicanas",
 			"show": false,
-			"img": "/images/medium/chilaquiles.jpg",
 			"products": [
 				{
 					"name": "Enchiladas",
@@ -374,7 +369,6 @@
 			"key": 9,
 			"name": "Acompañamientos",
 			"show": false,
-			"img": "/images/medium/club-sandwich.jpg",
 			"products": [
 				{
 					"name": "Club Sandwich",
@@ -419,7 +413,6 @@
 		{
 			"key": 11,
 			"name": "Hamburguesas",
-			"img": "/images/medium/la-tri.jpg",
 			"show": false,
 			"description": "Acompañadas de papas a la francesa o papas gajo.",
 			"products": [
@@ -450,7 +443,6 @@
 			"key": 12,
 			"name": "Bebidas",
 			"show": false,
-			"img": "/images/medium/frapuccino-ferrero.jpg",
 			"products": [
 				{
 					"name": "Jugo",
@@ -527,7 +519,6 @@
 			"key": 13,
 			"name": "Barra Fría",
 			"show": false,
-			"img": "/images/medium/frapuccino-ferrero.jpg",
 			"products": [
 				{
 					"name": "Malteada",
@@ -636,7 +627,6 @@
 			"key": 14,
 			"name": "Barra Caliente",
 			"show": false,
-			"img": "/images/medium/cafe-olla.jpg",
 			"products": [
 				{
 					"name": "Café de olla",
