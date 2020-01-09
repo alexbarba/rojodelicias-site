@@ -59,7 +59,7 @@ h4 {
 
 h5 {
 	font-size: 20px;
-	margin-bottom: 14px;
+	margin-bottom: 5px;
 }
 
 h6 {
@@ -3267,8 +3267,8 @@ body.demo {
 }
 
 #app .menu-contenido {
-	padding-top: 8em;
-	padding-bottom: 8em;
+	padding-top: 2em;
+	padding-bottom: 6em;
 }
 #menu-total{
 	color: #CD3567 !important; 
