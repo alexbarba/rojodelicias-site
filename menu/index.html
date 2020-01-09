@@ -80,20 +80,6 @@
 <div class="space-80">&nbsp;</div>
 <section id="menu-total">
     <div id="app">
-        <!--
-        <section class="all-box">
-            <div class="categories-box">
-                <div class="categories-tem">
-                    <div class="categorie-box">
-                        <div class="categorie-text" v-for="categorie in categories">
-                            {{categorie.name}}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    <div class="divisor-categoria"></div>
-    -->
         <section v-for="categorie in categories">
             <div class="container" >
                 <div class="page-header text-center menu-section">
@@ -101,7 +87,7 @@
                 </div><!-- / page-header -->
                 <div class="menu-contenido">
                     <template v-if="categorie.img">
-                        <img v-bind:src="'..' + categorie.img" alt="" class="food-img wow fadeInUp first" style="visibility: visible; animation-name: fadeInUp;">
+                        <img v-bind:src="'..' + categorie.img" alt="" class="food-img fadeInUp first" style="visibility: visible; animation-name: fadeInUp;">
                     </template>
                     <div class="row">
                         <div class="col-md-6 menu-items fadeIn first" style="visibility: visible; animation-name: fadeIn;">
@@ -112,7 +98,10 @@
                                         <span class="pull-right food-price text-primary" v-else>{{ product.price[0].name }}&ensp;${{ product.price[0].price }}.00&emsp;{{ product.price[1].name }}&ensp;${{product.price[1].price}}.00</span>
                                     </template>
                                 </h5>
-                                <p class="food-text" v-if="!Array.isArray(product.description)">{{ product.description }}</p>
+                                <p class="food-text" v-if="!Array.isArray(product.description)" v-if="product.description">{{ product.description }}</p>
+                                <p class="food-text" v-else v-for="description in product.description" v-if="description.name">{{ description.name }}
+                                    <span class="pull-right food-price text-primary" v-if="description.price">${{ description.price }}.00</span>
+                                </p>
                             </div>
                         </div><!-- / menu-items -->
                         <div class="col-md-6 menu-items fadeIn first" style="visibility: visible; animation-name: fadeIn;">
@@ -120,7 +109,7 @@
                                 <h5 class="food-title">{{ product.name }}&ensp;<i class="fa fa-coffee" v-if="product.coffe"></i>
                                     <template v-if="product.price">
                                         <span class="pull-right food-price text-primary" v-if="!Array.isArray(product.price)">${{ product.price }}.00</span>
-                                        <span class="pull-right food-price text-primary" v-else>{{product.price[0].name}}&ensp;${{product.price[0].price}}.00&emsp;{{product.price[1].name}}&ensp;${{product.price[1].price}}.00</span>
+                                        <span class="pull-right food-price text-primary" v-else>{{ product.price[0].name }}&ensp;${{product.price[0].price}}.00&emsp;{{product.price[1].name}}&ensp;${{product.price[1].price}}.00</span>
                                     </template>
                                 </h5>
                                 <p class="food-text" v-if="!Array.isArray(product.description)" v-if="product.description">{{ product.description }}</p>
@@ -138,10 +127,8 @@
             </div>
         </section>
     </div
-
-    
-
 </section>
+
 <!-- scroll to top -->
 <a href="#top" class="scroll-to-top page-scroll is-hidden" data-nav-status="toggle"><i class="fa fa-angle-up"></i></a>
 <!-- / scroll to top -->
