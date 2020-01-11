@@ -22,7 +22,7 @@
 				},
 				{
 					"name": "Molletes Universitarios   ",
-					"description": "Tradicionales con frijoles y queso gratinado. Añade jamón por $10+",
+					"description": "Tradicionales con frijoles y queso gratinado. Añade jamón por $10+.",
 					"price": 35.0
 				},
 				{
@@ -45,7 +45,7 @@
 				},
 				{
 					"name": "Sandwich Marinero",
-					"description": "Camarones, pimiento morrón y cebolla con queso gratinado. Añade papas por +$12",
+					"description": "Camarones, pimiento morrón y cebolla con queso gratinado. Añade papas por +$12.",
 					"price": 52.0
 				}
 			]
@@ -136,7 +136,7 @@
 			"products": [
 				{
 					"name": "Huevos al gusto ",
-					"description": "2 Ingredientes, revueltos o estrellados, acompañados de frijoles y chilaquiles. Opciones: Jamón, salchicha, tortilla, vegetales, pechuga de pavo, champiñones, tocino, chorizo ranchero, salsas o a la mexicana",
+					"description": "2 Ingredientes, revueltos o estrellados, acompañados de frijoles y chilaquiles. Opciones: Jamón, salchicha, tortilla, vegetales, pechuga de pavo, champiñones, tocino, chorizo ranchero, salsas o a la mexicana.",
 					"price": 65.0,
 					"coffe": true
 				},
@@ -464,42 +464,42 @@
 							"price": 38.0
 						}
 					],
-					"description": "M (300ml), G (500ml)"
+					"description": "M (300ml), G (500ml)."
 				},
 				{
 					"name": "Jugo Verde",
 					"price": 42,
-					"description": "(500ml) Naranja, nopal, apio, piña y perejil"
+					"description": "(500ml) Naranja, nopal, apio, piña y perejil."
 				},
 				{
 					"name": "Jugo Digestivo",
 					"price": 42,
-					"description": "(500ml) Papaya, naranja y un toque de limón"
+					"description": "(500ml) Papaya, naranja y un toque de limón."
 				},
 				{
 					"name": "Jugo Antioxidante",
 					"price": 42,
-					"description": "(500ml) Naranja, fresa y chía"
+					"description": "(500ml) Naranja, fresa y chía."
 				},
 				{
 					"name": "Jugo Vitamínico",
 					"price": 42,
-					"description": "(500ml) Manzana, naranja y uva"
+					"description": "(500ml) Manzana, naranja y uva."
 				},
 				{
 					"name": "Jugo Antigripal",
 					"price": 42,
-					"description": "(500ml) Guayaba, naranja, apio y miel"
+					"description": "(500ml) Guayaba, naranja, apio y miel."
 				},
 				{
 					"name": "Naranjada",
 					"price": 32.0,
-					"description": "500ml"
+					"description": "500ml."
 				},
 				{
 					"name": "Limonada",
 					"price": 32.0,
-					"description": "500ml"
+					"description": "500ml."
 				},
 				{
 					"name": "Refresco",
@@ -527,7 +527,7 @@
 							"name": "(500ml) Leche con fresa, plátano, mango, papaya, piña o melón."
 						},
 						{
-							"name": "Extra: Pídelo con avena, granola, pasas o arándano por ",
+							"name": "Extra: Pídelo con avena, granola, pasas o arándano por +$8",
 							"price": 6.0
 						}
 					]
@@ -555,7 +555,7 @@
 			"products": [
 				{
 					"name": "Frapuccinos",
-					"description": "M (355ml) G (500ml)"
+					"description": "M (355ml) G (500ml)."
 				},
 				{
 					"name": "Sencillo",
