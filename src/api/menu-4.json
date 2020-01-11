@@ -503,7 +503,8 @@
 				},
 				{
 					"name": "Refresco",
-					"price": 22.0
+					"price": 22.0,
+					"description": "600ml."
 				},
 				{
 					"name": "Chocomilk",
@@ -536,7 +537,7 @@
 							"price": 30.0
 						}
 					],
-					"description": "De fruta de temporada. M (500 ml) G (1 L)."
+					"description": "M (500 ml) G (1 L) De fruta de temporada."
 				}
 			]
 		},
