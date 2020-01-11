@@ -664,6 +664,7 @@
 			"products": [
 				{
 					"name": "Café de olla",
+					"description":"M (355ml) G (473ml).",
 					"price": [
 						{
 							"name": "M",
@@ -677,6 +678,7 @@
 				},
 				{
 					"name": "Americano",
+					"description":"M (355ml) G (473ml).",
 					"price": [
 						{
 							"name": "M",
@@ -694,18 +696,22 @@
 				},
 				{
 					"name": "Capuccino",
+					"description":"355ml",
 					"price": 38.0
 				},
 				{
 					"name": "Capuccino Sabor",
+					"description":"355ml",
 					"price": 45.0
 				},
 				{
 					"name": "Café Latte",
+					"description":"355ml",
 					"price": 38.0
 				},
 				{
 					"name": "Café Latte Sabor",
+					"description":"355ml",
 					"price": 45.0
 				},
 				{
@@ -715,11 +721,13 @@
 				},
 				{
 					"name": "Chai Latte",
+					"description":"355ml",
 					"description": "Mezcla de té con especias y leche.",
 					"price": 45.0
 				},
 				{
 					"name": "Chocolate Caliente",
+					"description":"355ml",
 					"price": 38.0
 				}
 				
