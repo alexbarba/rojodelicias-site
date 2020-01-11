@@ -101,7 +101,15 @@
 				{
 					"name": "Yogur con fruta",
 					"description": "Con granola y miel.",
-					"price": 48.0
+					"price": [
+						{
+							"price": 52.0
+						},
+						{
+							"name": "1/2",
+							"price": 52.0
+						}
+					]
 				},
 				{
 					"name": "Escamocha",
