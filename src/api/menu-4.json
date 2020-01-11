@@ -91,7 +91,7 @@
 			"key": 3,
 			"name": "Delicias Ligeras",
 			"show": false,
-			"description": "Frutas disponibles: Manzana roja y verde, melón, papaya, pera, fresa, plátano y uva (pueden variar según temporada). Adicional: Granola +$5, pasas +$5, lechera +$6, nuez +$8, almendra +$8",
+			"description": "Frutas disponibles: Manzana roja y verde, melón, papaya, pera, fresa, plátano, guayaba y uva (pueden variar según temporada). Adicional: Granola +$5, pasas +$5, lechera +$6, nuez +$8, almendra +$8",
 			"products": [
 				{
 					"name": "Plato de Fruta",
@@ -149,7 +149,7 @@
 				{
 					"name": "Norteños",
 					"description": "Dos huevos con machaca, se acompaña con frijoles y chilaquiles.",
-					"price": 80.0,
+					"price": 85.0,
 					"coffe": true
 				},
 				{
@@ -161,7 +161,7 @@
 				{
 					"name": "Clásico ",
 					"description": "Jamón y queso mozzarella, se acompaña de frijoles y chilaquiles.",
-					"price": 65.0,
+					"price": 69.0,
 					"coffe": true
 				},
 				{
@@ -179,7 +179,7 @@
 				{
 					"name": "Ligero ",
 					"description": "3 claras de huevo, panela, espinacas y bañado en nuestra salsa verde, se acompaña de nopal asado y ensalada.",
-					"price": 75.0,
+					"price": 79.0,
 					"coffe": true
 				},
 				{
@@ -197,12 +197,12 @@
 				{
 					"name": "Del Mar",
 					"description": "Camarones, morrón rojo y perejil, gratinado con mozzarella, se acompaña con una entomatada y ensalada.",
-					"price": 99.0,
+					"price": 105.0,
 					"coffe": true
 				},
 				{
 					"name": "Chilaquiles",
-					"price": 58.0,
+					"price": 60.0,
 					"coffe": true,
 					"description": [
 						{
@@ -242,17 +242,17 @@
 				{
 					"name": "Enchiladas",
 					"description": "(3 pzas) Rellenas de pollo, queso o pierna, rojas o verdes.",
-					"price": 68.0
+					"price": 70.0
 				},
 				{
 					"name": "Enfrijoladas",
 					"description": "(3 pzas) Rellenas de pollo bañadas en una exquisita salsa de frijol y queso.",
-					"price": 68.0
+					"price": 70.0
 				},
 				{
 					"name": "Enchiladas Suizas",
 					"description": "(3 pzas) Rellenas de pollo bañadas en salsa verde cremosa y queso gratinado.",
-					"price": 78.0
+					"price": 80.0
 				},
 				{
 					"name": "Quesadilla ",
@@ -292,13 +292,13 @@
 				},
 				{
 					"name": "Mexicano",
-					"price": 69.0,
+					"price": 75.0,
 					"description": "Sirloin, jalapeño, champiñones, morrón, cebolla y queso mozzarella."
 				},
 				{
 					"name": "Tres quesos",
 					"description": "Queso mozzarella, manchego, panela y champiñones.",
-					"price": 65.0
+					"price": 69.0
 				}
 			]
 		},
@@ -348,27 +348,27 @@
 				},
 				{
 					"name": "Italiano",
-					"price": 70.0,
+					"price": 75.0,
 					"description": "Pesto, jamón de pavo, jitomate, morrón y queso."
 				},
 				{
 					"name": "Pollo Finas Hierbas",
-					"price": 70.0,
+					"price": 75.0,
 					"description": "Pollo, chimichurri, aceituna negra, tocino, queso y albahaca."
 				},
 				{
 					"name": "Ibérico",
-					"price": 75.0,
+					"price": 80.0,
 					"description": "Jamón serrano, queso mozzarella, albahaca."
 				},
 				{
 					"name": "Mexicano",
-					"price": 80.0,
+					"price": 85.0,
 					"description": "Deliciosa arrachera con chimichurri, queso mozzarella, pimiento verde y cebolla."
 				},
 				{
 					"name": "Marimar",
-					"price": 95.0,
+					"price": 105.0,
 					"description": "Camarones a la plancha (100 grs), queso gratinado, aderezo de tomates deshidratados, cebolla caramelizada y champiñones."
 				}
 			]
@@ -427,21 +427,21 @@
 				{
 					"name": "Clásica",
 					"description": "Arrachera, queso amarillo, lechuga, jitomate y cebolla.",
-					"price": 65.0
+					"price": 70.0
 				},
 				{
 					"name": "Marinera",
-					"price": 95.0,
+					"price": 105.0,
 					"description": "Camarones gratinados con cebolla, pimiento morrón, champiñones acompañada de aderezo chipotle."
 				},
 				{
 					"name": "La Tri",
-					"price": 85.0,
+					"price": 90.0,
 					"description": "Arrachera, chorizo ranchero, jitomate, cebolla, panela y lechuga acompañada de salsa de aguacate picosita."
 				},
 				{
 					"name": "Bacon",
-					"price": 75.0,
+					"price": 79.0,
 					"description": "Arrachera, tocino y guacamole."
 				}
 			]
@@ -606,7 +606,7 @@
 						},
 						{
 							"name": "G",
-							"price": 60.0
+							"price": 62.0
 						}
 					]
 				},
@@ -615,11 +615,11 @@
 					"price": [
 						{
 							"name": "M",
-							"price": 58.0
+							"price": 60.0
 						},
 						{
 							"name": "G",
-							"price": 64.0
+							"price": 67.0
 						}
 					]
 				},
@@ -628,11 +628,11 @@
 					"price": [
 						{
 							"name": "M",
-							"price": 58.0
+							"price": 60.0
 						},
 						{
 							"name": "G",
-							"price": 64.0
+							"price": 67.0
 						}
 					]
 				},
@@ -652,7 +652,7 @@
 				{
 					"name": "Chai Frappe",
 					"description": "(500ml)",
-					"price": 55.0
+					"price": 60.0
 				}
 			]
 		},
