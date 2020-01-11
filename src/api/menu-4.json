@@ -637,22 +637,23 @@
 				},
 				{
 					"name": "Malteada",
-					"description": "Fresa, vainilla, galleta y chocolate.",
+					"description": "(473ml) Fresa, vainilla, galleta y chocolate.",
 					"price": 48.0
 				},
 				{
 					"name": "Smoothie",
-					"description": "Fresa, fresa-kiwi, piña-kiwi, piña-coco, mango y frutos rojos.",
+					"description": "(473ml) Fresa, fresa-kiwi, piña-kiwi, piña-coco, mango y frutos rojos.",
 					"price": 46.0
 				},
 				{
 					"name": "Chamoyada de mango",
+					"description": "473ml.",
 					"price": 48.0
 				},
 				
 				{
 					"name": "Chai Frappe",
-					"description": "(500ml)",
+					"description": "500ml.",
 					"price": 60.0
 				}
 			]
@@ -696,22 +697,22 @@
 				},
 				{
 					"name": "Capuccino",
-					"description":"355ml",
+					"description":"355ml.",
 					"price": 38.0
 				},
 				{
 					"name": "Capuccino Sabor",
-					"description":"355ml",
+					"description":"355ml.",
 					"price": 45.0
 				},
 				{
 					"name": "Café Latte",
-					"description":"355ml",
+					"description":"355ml.",
 					"price": 38.0
 				},
 				{
 					"name": "Café Latte Sabor",
-					"description":"355ml",
+					"description":"355ml.",
 					"price": 45.0
 				},
 				{
@@ -721,13 +722,12 @@
 				},
 				{
 					"name": "Chai Latte",
-					"description":"355ml",
-					"description": "Mezcla de té con especias y leche.",
+					"description": "(355ml) Mezcla de té con especias y leche.",
 					"price": 45.0
 				},
 				{
 					"name": "Chocolate Caliente",
-					"description":"355ml",
+					"description":"355ml.",
 					"price": 38.0
 				}
 				
