@@ -554,20 +554,6 @@
 			"show": false,
 			"products": [
 				{
-					"name": "Malteada",
-					"description": "Fresa, vainilla, galleta y chocolate.",
-					"price": 48.0
-				},
-				{
-					"name": "Smoothie",
-					"description": "Fresa, fresa-kiwi, piña-kiwi, piña-coco, mango y frutos rojos.",
-					"price": 46.0
-				},
-				{
-					"name": "Chamoyada de mango",
-					"price": 48.0
-				},
-				{
 					"name": "Frapuccinos",
 					"description": "M (355ml) G (500ml)"
 				},
@@ -649,6 +635,21 @@
 						}
 					]
 				},
+				{
+					"name": "Malteada",
+					"description": "Fresa, vainilla, galleta y chocolate.",
+					"price": 48.0
+				},
+				{
+					"name": "Smoothie",
+					"description": "Fresa, fresa-kiwi, piña-kiwi, piña-coco, mango y frutos rojos.",
+					"price": 46.0
+				},
+				{
+					"name": "Chamoyada de mango",
+					"price": 48.0
+				},
+				
 				{
 					"name": "Chai Frappe",
 					"description": "(500ml)",
