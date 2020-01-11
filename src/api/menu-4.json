@@ -522,15 +522,7 @@
 				{
 					"name": "Licuado",
 					"price": 30.0,
-					"description": [
-						{
-							"name": "(500ml) Leche con fresa, plátano, mango, papaya, piña o melón."
-						},
-						{
-							"name": "Extra: Pídelo con avena, granola, pasas o arándano por +$8",
-							"price": 6.0
-						}
-					]
+					"description": "(500ml) Leche con fresa, plátano, mango, papaya, piña o melón. Extra: Pídelo con avena, granola, pasas o arándano por +$6."
 				},
 				{
 					"name": "Agua Fresca",
