@@ -106,7 +106,7 @@
 							"price": 52.0
 						},
 						{
-							"name": "1/2",
+							"name": "½",
 							"price": 35.0
 						}
 					]
@@ -114,12 +114,28 @@
 				{
 					"name": "Escamocha",
 					"description": "Fruta de temporada con jugo de naranja y lechera.",
-					"price": 48.0
+					"price": [
+						{
+							"price": 52.0
+						},
+						{
+							"name": "½",
+							"price": 35.0
+						}
+					]
 				},
 				{
 					"name": "Biónico",
 					"description": "Preparado de fruta con una mezcla dulce, pasas y coco.",
-					"price": 55.0
+					"price": [
+						{
+							"price": 55.0
+						},
+						{
+							"name": "½",
+							"price": 40.0
+						}
+					]
 				},
 				{
 					"name": "Biónico Especial",
