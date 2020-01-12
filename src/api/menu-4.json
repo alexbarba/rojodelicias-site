@@ -22,7 +22,7 @@
 				},
 				{
 					"name": "Molletes Universitarios   ",
-					"description": "Tradicionales con frijoles y queso gratinado. Añade jamón por $10+.",
+					"description": "Tradicionales con frijoles y queso gratinado. Añade jamón por +$10.",
 					"price": 35.0
 				},
 				{
@@ -34,11 +34,11 @@
 					"name": "Sandwich o torta",
 					"description": [
 						{
-							"name": "Panela o pechuga de pavo",
+							"name": "Panela o pechuga de pavo.",
 							"price": 38.0
 						},
 						{
-							"name": "Pollo o pierna",
+							"name": "Pollo o pierna.",
 							"price": 42.0
 						}
 					]
@@ -91,7 +91,7 @@
 			"key": 3,
 			"name": "Delicias Ligeras",
 			"show": false,
-			"description": "Frutas disponibles: Manzana roja y verde, melón, papaya, pera, fresa, plátano, guayaba y uva (pueden variar según temporada). Adicional: Granola +$5, pasas +$5, lechera +$6, nuez +$8, almendra +$8",
+			"description": "Frutas disponibles: manzana roja y verde, melón, papaya, pera, fresa, plátano, guayaba y uva (pueden variar según temporada). Adicional: granola +$5, pasas +$5, lechera +$6, nuez +$8, almendra +$8",
 			"products": [
 				{
 					"name": "Plato de Fruta",
@@ -152,67 +152,67 @@
 			"products": [
 				{
 					"name": "Huevos al gusto ",
-					"description": "2 Ingredientes, revueltos o estrellados, acompañados de frijoles y chilaquiles. Opciones: Jamón, salchicha, tortilla, vegetales, pechuga de pavo, champiñones, tocino, chorizo ranchero, salsas o a la mexicana.",
+					"description": "2 Ingredientes, revueltos o estrellados. Se acompaña con frijoles y chilaquiles. Opciones: jamón, salchicha, tortilla, vegetales, pechuga de pavo, champiñones, tocino, chorizo ranchero, salsas o a la mexicana.",
 					"price": 65.0,
 					"coffe": true
 				},
 				{
 					"name": "Divorciados",
-					"description": "Dos huevos estrellados sobre tortilla dorada y jamón, separados por salsa roja y verde.",
+					"description": "Huevos estrellados sobre tortilla dorada y jamón, separados por salsa roja y verde.",
 					"price": 69.0,
 					"coffe": true
 				},
 				{
 					"name": "Norteños",
-					"description": "Dos huevos con machaca, se acompaña con frijoles y chilaquiles.",
+					"description": "Huevos con machaca. Se acompaña con frijoles y chilaquiles.",
 					"price": 85.0,
 					"coffe": true
 				},
 				{
 					"name": "Omelette al gusto ",
-					"description": "2 Ingredientes y queso, acompañados de frijoles y chilaquiles.",
+					"description": "2 Ingredientes y queso. Se acompaña con frijoles y chilaquiles.",
 					"price": 69.0,
 					"coffe": true
 				},
 				{
 					"name": "Clásico ",
-					"description": "Jamón y queso mozzarella, se acompaña de frijoles y chilaquiles.",
+					"description": "Jamón y queso mozzarella. Se acompaña con frijoles y chilaquiles.",
 					"price": 69.0,
 					"coffe": true
 				},
 				{
 					"name": "Francés ",
-					"description": "Perejil, champiñones, cebolla blanca, tocino y queso mozzarella, se acompaña con frijoles y chilaquiles.",
+					"description": "Perejil, champiñones, cebolla blanca, tocino y queso mozzarella. Se acompaña con frijoles y chilaquiles.",
 					"price": 69.0,
 					"coffe": true
 				},
 				{
 					"name": "Vegetariano ",
-					"description": "Espinacas, champiñones, cebolla morada y queso mozzarella. Se acompaña de frijoles y chilaquiles.",
+					"description": "Espinacas, champiñones, cebolla morada y queso mozzarella. Se acompaña con frijoles y chilaquiles.",
 					"price": 69.0,
 					"coffe": true
 				},
 				{
 					"name": "Ligero ",
-					"description": "3 claras de huevo, panela, espinacas y bañado en nuestra salsa verde, se acompaña de nopal asado y ensalada.",
+					"description": "3 claras de huevo, panela, espinacas y bañado en nuestra salsa verde. Se acompaña con nopal asado y ensalada.",
 					"price": 79.0,
 					"coffe": true
 				},
 				{
 					"name": "Saludable",
-					"description": "Calabaza, zanahoria y pimiento rojo, acompañado de nopal asado y frijoles.",
+					"description": "Calabaza, zanahoria y pimiento rojo. Se acompaña con nopal asado y frijoles.",
 					"price": 69.0,
 					"coffe": true
 				},
 				{
 					"name": "Tres Quesos",
-					"description": "En salsa roja, de manchego, mozzarella y panela, se acompaña de frijoles y calabacita asada.",
+					"description": "En salsa roja, de manchego, mozzarella y panela. Se acompaña con frijoles y calabacita asada.",
 					"price": 75.0,
 					"coffe": true
 				},
 				{
 					"name": "Del Mar",
-					"description": "Camarones, morrón rojo y perejil, gratinado con mozzarella, se acompaña con una entomatada y ensalada.",
+					"description": "Camarones, morrón rojo y perejil, gratinado con mozzarella. Se acompaña con una entomatada y ensalada.",
 					"price": 105.0,
 					"coffe": true
 				},
@@ -485,42 +485,42 @@
 				{
 					"name": "Jugo Verde",
 					"price": 42,
-					"description": "(500ml) Naranja, nopal, apio, piña y perejil."
+					"description": "(500 ml) Naranja, nopal, apio, piña y perejil."
 				},
 				{
 					"name": "Jugo Digestivo",
 					"price": 42,
-					"description": "(500ml) Papaya, naranja y un toque de limón."
+					"description": "(500 ml) Papaya, naranja y un toque de limón."
 				},
 				{
 					"name": "Jugo Antioxidante",
 					"price": 42,
-					"description": "(500ml) Naranja, fresa y chía."
+					"description": "(500 ml) Naranja, fresa y chía."
 				},
 				{
 					"name": "Jugo Vitamínico",
 					"price": 42,
-					"description": "(500ml) Manzana, naranja y uva."
+					"description": "(500 ml) Manzana, naranja y uva."
 				},
 				{
 					"name": "Jugo Antigripal",
 					"price": 42,
-					"description": "(500ml) Guayaba, naranja, apio y miel."
+					"description": "(500 ml) Guayaba, naranja, apio y miel."
 				},
 				{
 					"name": "Naranjada",
 					"price": 32.0,
-					"description": "500ml."
+					"description": "500 ml."
 				},
 				{
 					"name": "Limonada",
 					"price": 32.0,
-					"description": "500ml."
+					"description": "500 ml."
 				},
 				{
 					"name": "Refresco",
 					"price": 22.0,
-					"description": "600ml."
+					"description": "600 ml."
 				},
 				{
 					"name": "Chocomilk",
@@ -534,12 +534,12 @@
 							"price": 30.0
 						}
 					],
-					"description": "M (300ml) G (500ml)."
+					"description": "M (300 ml) G (500 ml)."
 				},
 				{
 					"name": "Licuado",
 					"price": 30.0,
-					"description": "(500ml) Leche con fresa, plátano, mango, papaya, piña o melón. Extra: Pídelo con avena, granola, pasas o arándano por +$6."
+					"description": "(500 ml) Leche con fresa, plátano, mango, papaya, piña o melón. Extra: Pídelo con avena, granola, pasas o arándano por +$6."
 				},
 				{
 					"name": "Agua Fresca",
@@ -564,7 +564,7 @@
 			"products": [
 				{
 					"name": "Frapuccinos",
-					"description": "M (355ml) G (500ml)."
+					"description": "M (355 ml) G (500 ml)."
 				},
 				{
 					"name": "Sencillo",
@@ -646,23 +646,23 @@
 				},
 				{
 					"name": "Malteada",
-					"description": "(473ml) Fresa, vainilla, galleta y chocolate.",
+					"description": "(473 ml) Fresa, vainilla, galleta y chocolate.",
 					"price": 48.0
 				},
 				{
 					"name": "Smoothie",
-					"description": "(473ml) Fresa, fresa-kiwi, piña-kiwi, piña-coco, mango y frutos rojos.",
+					"description": "(473 ml) Fresa, fresa-kiwi, piña-kiwi, piña-coco, mango y frutos rojos.",
 					"price": 46.0
 				},
 				{
 					"name": "Chamoyada de mango",
-					"description": "473ml.",
+					"description": "473 ml.",
 					"price": 48.0
 				},
 				
 				{
 					"name": "Chai Frappe",
-					"description": "500ml.",
+					"description": "500 ml.",
 					"price": 60.0
 				}
 			]
@@ -674,7 +674,7 @@
 			"products": [
 				{
 					"name": "Café de olla",
-					"description":"M (355ml) G (473ml).",
+					"description":"M (355 ml) G (473 ml).",
 					"price": [
 						{
 							"name": "M",
@@ -688,7 +688,7 @@
 				},
 				{
 					"name": "Americano",
-					"description":"M (355ml) G (473ml).",
+					"description":"M (355 ml) G (473 ml).",
 					"price": [
 						{
 							"name": "M",
@@ -706,37 +706,37 @@
 				},
 				{
 					"name": "Capuccino",
-					"description":"355ml.",
+					"description":"355 ml.",
 					"price": 38.0
 				},
 				{
 					"name": "Capuccino Sabor",
-					"description":"355ml.",
+					"description":"355 ml.",
 					"price": 45.0
 				},
 				{
 					"name": "Café Latte",
-					"description":"355ml.",
+					"description":"355 ml.",
 					"price": 38.0
 				},
 				{
 					"name": "Café Latte Sabor",
-					"description":"355ml.",
+					"description":"355 ml.",
 					"price": 45.0
 				},
 				{
 					"name": "Té",
-					"description": "(350ml) Manzanilla, hierbabuena, relajante, manzana-canela, limón y verde.",
+					"description": "(350 ml) Manzanilla, hierbabuena, relajante, manzana-canela, limón y verde.",
 					"price": 20.0
 				},
 				{
 					"name": "Chai Latte",
-					"description": "(355ml) Mezcla de té con especias y leche.",
+					"description": "(355 ml) Mezcla de té con especias y leche.",
 					"price": 45.0
 				},
 				{
 					"name": "Chocolate Caliente",
-					"description":"355ml.",
+					"description":"355 ml.",
 					"price": 38.0
 				}
 				
