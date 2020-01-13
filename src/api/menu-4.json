@@ -148,7 +148,7 @@
 			"key": 4,
 			"name": "Desayunos",
 			"show": false,
-			"description": "Incluyen café de olla",
+			"description": "Incluyen café de olla con refil hasta las 12:00 del día. **No aplica para llevar",
 			"products": [
 				{
 					"name": "Huevos al gusto ",
