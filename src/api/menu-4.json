@@ -646,20 +646,32 @@
 				},
 				{
 					"name": "Malteada",
-					"description": "(473 ml) Fresa, vainilla, galleta y chocolate.",
-					"price": 48.0
+					"description": [
+						{
+							"name": "(473 ml) Fresa, vainilla y chocolate.",
+							"price": 48.0
+						},
+						{
+							"name": "(473 ml) Galleta Oreo.",
+							"price": 53.0
+						}
+					]
+					
 				},
 				{
 					"name": "Smoothie",
-					"description": "(473 ml) Fresa, fresa-kiwi, piña-kiwi, piña-coco, mango y frutos rojos.",
-					"price": 46.0
+					"description": [
+						{
+							"name":"(473 ml) Fresa, fresa-kiwi, piña-kiwi, piña-coco, mango.",
+							"price": 46.0
+						},
+						{
+							"name":"(473 ml) Chamoyada de mango y frutos rojos.",
+							"price": 55.0
+						}
+					
+					]
 				},
-				{
-					"name": "Chamoyada de mango",
-					"description": "473 ml.",
-					"price": 48.0
-				},
-				
 				{
 					"name": "Chai Frappe",
 					"description": "500 ml.",
