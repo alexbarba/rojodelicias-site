@@ -2334,6 +2334,11 @@ section {
 	font-weight: bold;
 }
 
+.description-price{
+	font-weight: bold;
+	font-size: 20px;
+}
+
 #main-menu {
 	padding-top: 0;
 }

@@ -100,7 +100,7 @@
                                 </h5>
                                 <p class="food-text" v-if="!Array.isArray(product.description)" v-if="product.description">{{ product.description }}</p>
                                 <p class="food-text" v-else v-for="description in product.description" v-if="description.name">{{ description.name }}
-                                    <span class="pull-right food-price text-primary" v-if="description.price">${{ description.price }}.00</span>
+                                    <span class="pull-right description-price text-primary" v-if="description.price">${{ description.price }}.00</span>
                                 </p>
                             </div>
                         </div><!-- / menu-items -->
@@ -114,7 +114,7 @@
                                 </h5>
                                 <p class="food-text" v-if="!Array.isArray(product.description)" v-if="product.description">{{ product.description }}</p>
                                 <p class="food-text" v-else v-for="description in product.description" v-if="description.name">{{ description.name }}
-                                    <span class="pull-right food-price text-primary" v-if="description.price">${{ description.price }}.00</span>
+                                    <span class="pull-right description-price text-primary" v-if="description.price">${{ description.price }}.00</span>
                                 </p>
                             </div>
                         </div><!-- / menu-items -->
