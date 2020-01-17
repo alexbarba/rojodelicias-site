@@ -2337,6 +2337,9 @@ section {
 .description-price{
 	font-weight: bold;
 	font-size: 20px;
+	font-family: "Champagne-Limousines-Bold", sans-serif;
+	letter-spacing: 0.05em;
+	line-height: 1.1;
 }
 
 #main-menu {
