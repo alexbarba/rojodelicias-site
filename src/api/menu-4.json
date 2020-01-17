@@ -223,7 +223,7 @@
 					"description": [
 						{
 							"name": "Con sombrero",
-							"price": 68.0
+							"price": 69.0
 						},
 						{
 							"name": "Pollo",
@@ -359,7 +359,7 @@
 				},
 				{
 					"name": "Ligero",
-					"description": "Panela asada, jitomate, albahaca. Aderezo sugerido: vinagreta.",
+					"description": "Panela asada, jitomate, albahaca.",
 					"price": 70.0
 				},
 				{
@@ -410,7 +410,7 @@
 			"key": 10,
 			"name": "Ensaladas",
 			"show": false,
-			"description": "Aderezo a elección: BBQ, Ranch, César, Chipotle, vinagreta, Mostaza y miel, Mil islas y Blue cheesse.",
+			"description": "Aderezo a elección.",
 			"products": [
 				{
 					"name": "César",
@@ -419,7 +419,7 @@
 				},
 				{
 					"name": "Di Mela",
-					"description": "Una combinación de manzana, apio, fresa, arándanos, núez y lechuga, revueltos con nuestro aderezo especial de yogurt o queso cottage.",
+					"description": "Una combinación de manzana, apio, fresa, arándanos, núez y lechuga.",
 					"price": 65.0
 				},
 				{
@@ -448,7 +448,7 @@
 				{
 					"name": "Marinera",
 					"price": 105.0,
-					"description": "Camarones gratinados con cebolla, pimiento morrón, champiñones acompañada de aderezo chipotle."
+					"description": "Camarones gratinados con cebolla, pimiento morrón, champiñones."
 				},
 				{
 					"name": "La Tri",
@@ -678,11 +678,11 @@
 					"price": [
 						{
 							"name": "M",
-							"price": 20.0
+							"price": 22.0
 						},
 						{
 							"name": "G",
-							"price": 24.0
+							"price": 26.0
 						}
 					]
 				},
