@@ -293,7 +293,6 @@
 		{
 			"key": 6,
 			"name": "Baguettes",
-			"description": "Aderezo a elección",
 			"show": false,
 			"products": [
 				{
@@ -350,7 +349,6 @@
 			"key": 8,
 			"name": "Paninis",
 			"show": false,
-			"description": "Aderezo a elección.",
 			"products": [
 				{
 					"name": "Pizza",
@@ -410,7 +408,6 @@
 			"key": 10,
 			"name": "Ensaladas",
 			"show": false,
-			"description": "Aderezo a elección.",
 			"products": [
 				{
 					"name": "César",
@@ -564,7 +561,7 @@
 			"products": [
 				{
 					"name": "Frapuccinos",
-					"description": "M (355 ml) G (500 ml)."
+					"description": "M (355 ml) G (473 ml)."
 				},
 				{
 					"name": "Sencillo",
@@ -674,7 +671,7 @@
 				},
 				{
 					"name": "Chai Frappe",
-					"description": "500 ml.",
+					"description": "473 ml.",
 					"price": 60.0
 				}
 			]
