@@ -91,7 +91,7 @@
 			"key": 3,
 			"name": "Delicias Ligeras",
 			"show": false,
-			"description": "Frutas disponibles: manzana roja y verde, melón, papaya, pera, fresa, plátano, guayaba y uva (pueden variar según temporada). Adicional: granola +$5, pasas +$5, lechera +$6, nuez +$8, almendra +$8",
+			"description": "Frutas disponibles: manzana roja y verde, melón, papaya, pera, fresa, plátano, guayaba y uva (pueden variar según temporada). Adicional: granola, pasas o lechera (+$6) y nuez o almendra (+$8)",
 			"products": [
 				{
 					"name": "Plato de Fruta",
