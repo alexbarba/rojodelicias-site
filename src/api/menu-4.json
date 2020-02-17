@@ -439,7 +439,7 @@
 			"products": [
 				{
 					"name": "Clásica",
-					"description": "Arrachera, queso amarillo, lechuga, jitomate y cebolla.",
+					"description": "Sirloin, queso amarillo, lechuga, jitomate y cebolla.",
 					"price": 70.0
 				},
 				{
@@ -450,12 +450,12 @@
 				{
 					"name": "La Tri",
 					"price": 90.0,
-					"description": "Arrachera, chorizo ranchero, jitomate, cebolla, panela y lechuga acompañada de salsa de aguacate picosita."
+					"description": "Sirloin, chorizo ranchero, jitomate, cebolla, panela y lechuga acompañada de salsa de aguacate picosita."
 				},
 				{
 					"name": "Bacon",
 					"price": 79.0,
-					"description": "Arrachera, tocino y guacamole."
+					"description": "Sirloin, tocino y guacamole."
 				}
 			]
 		},
