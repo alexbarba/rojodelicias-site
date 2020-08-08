@@ -221,7 +221,7 @@ $('.lightbox').each(function() {
             }
         },
         created () {
-            fetch('http://rojodelicias.com/src/api/menu-4.json')
+            fetch('https://rojodelicias.com/src/api/menu-4.json')
                 .then(response => response.json())
                 .then(json => {
                     this.categories = json.categorias
