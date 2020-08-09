@@ -156,42 +156,14 @@
 <!-- / sticky nav -->
 
 
-
-<!-- wow Efecto de retraso-->
-<script src="../assets/js/wow.js"></script>
-<script>
-new WOW().init();
-</script>
-<!-- / wow -->
-
 <!-- gallery script -->
 <script src="../assets/js/custom.js"></script>
 <script src="../assets/js/jquery.js"></script>
-<!-- lightbox -->
-<script src="../assets/js/jquery_003.js"></script>
-<script type="text/javascript">
-// This will create a single gallery from all elements that have class "lightbox"
-$('.lightbox').each(function() {
-    $(this).magnificPopup({
-        delegate: 'a.open-gallery', // the selector for gallery item
-        type: 'image',
-        gallery: {
-          enabled:true
-        }
-    });
-});
-</script>
-<!-- / lightbox -->
-<!-- / gallery script -->
 
 <!-- hide nav -->
 <script src="../assets/js/hide-nav.js"></script>
 <!-- / hide nav -->
 
-
-<!-- / javascript -->
-
-<!-- development version, includes helpful console warnings -->
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 <script>
     const app = new Vue({
@@ -221,7 +193,7 @@ $('.lightbox').each(function() {
             }
         },
         created () {
-            fetch('https://rojodelicias.com/src/api/menu-4.json')
+            fetch('https://www.rojodelicias.com/src/api/menu-4.json')
                 .then(response => response.json())
                 .then(json => {
                     this.categories = json.categorias
@@ -232,8 +204,6 @@ $('.lightbox').each(function() {
             
         }
     })
-
-    
 </script>
 
 </body>
