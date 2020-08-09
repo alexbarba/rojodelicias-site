@@ -12,7 +12,6 @@ body {
 
 html,
 body {
-	height: 100%;
 	margin: 0;
 	overflow-x: hidden;
 }
@@ -2180,8 +2179,8 @@ section {
 	padding-bottom: 80px;
 }
 
-#app > section {
-	padding-top: 0px;
+#menu > section {
+	padding-top: 30px;
 	padding-bottom: 0px;
 }
 
@@ -2330,11 +2329,11 @@ section {
 	margin-bottom: 80px;
 }
 
-.food-price{
+.food-price {
 	font-weight: bold;
 }
 
-.description-price{
+.description-price {
 	font-weight: bold;
 	font-size: 20px;
 	font-family: "Champagne-Limousines-Bold", sans-serif;
@@ -3274,10 +3273,10 @@ body.demo {
 	cursor: pointer;
 }
 
-#app .menu-contenido {
+#menu .menu-contenido {
 	padding-top: 2em;
 	padding-bottom: 6em;
 }
-#menu-total{
-	color: #CD3567 !important; 
+#menu {
+	color: #cd3567 !important;
 }

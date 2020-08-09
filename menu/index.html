@@ -1,210 +1,191 @@
 <!DOCTYPE html>
 <html lang="es"><head>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-80128526-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
-  gtag('config', 'UA-80128526-1');
-</script>
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Rojo Delicias website">
-<meta name="keywords" content="cafe, menu, postres, desayunos, huevo, frapuccino, bebidas, musica, comida, hamburguesas, wraps, rojo delicias, paninis, baguettes, huevo, omelette, waffle, hot cakes">
-<meta name="author" content="Alexis Barba">
-
-
-<!-- favicon -->
-<link rel="icon" href="../images/thumbnail/solo.png">
-<!-- page title -->
-<title>Menu - Rojo Delicias</title>
-<!-- bootstrap css -->
-<link href="../assets/css/bootstrap.css" rel="stylesheet">
-<!-- css -->
-<link href="../assets/css/style.css" rel="stylesheet">
-<link href="../assets/css/animate.css" rel="stylesheet">
-<link href="../assets/css/magnific-popup.css" rel="stylesheet">
-<link href="../assets/css/categorias.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-
-
-</head>
-
-<body style="overflow: visible;">
-    <!-- preloader -->
-<script src="../assets/js/preloader.js"></script>
-<!-- / preloader -->
-    <!-- preloader -->
-    <div id="preloader" style="display: block;">
-        <div class="spinner spinner-round"></div>
-    </div>
-    <!-- / preloader -->
-    <div id="top"></div>
-
-<!-- header -->
-<header >
-   
-    <nav class="navbar navbar-default dark-bg page-nav navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"><img src="../images/thumbnail/logo-inline.png" alt="logo" class="inline-logo"> <img src="../images/thumbnail/logo-collapsed.png" alt="logo" class="collapsed-logo"></a>
-            </div><!-- / navbar-header -->
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="../">HOME</a></li>
-                    <li class="active"><a href="">MENU</a></li>
-                    <!--<li><a href="Canasta.html">CANASTA</a></li>-->
-                </ul>
-            </div><!--/.nav-collapse -->
-        </div><!-- / container -->
-    </nav>
-</header>
-<!-- / header -->
-
-<!-- content -->
-<div class="space-80">&nbsp;</div>
-<section id="menu-total">
-    <div id="app">
-        <section v-for="categorie in categories">
-            <div class="container" >
-                <div class="page-header text-center menu-section">
-                    <h2 class="text-primary">{{ categorie.name }}&nbsp;</h2>
-                </div><!-- / page-header -->
-                <div class="menu-contenido">
-                    <template v-if="categorie.img">
-                        <img v-bind:src="'..' + categorie.img" alt="" class="food-img fadeInUp first" style="visibility: visible; animation-name: fadeInUp;">
-                    </template>
-                    <div class="row">
-                        <div class="col-md-6 menu-items fadeIn first" style="visibility: visible; animation-name: fadeIn;">
-                            <div v-for="(product,index) in categorie.products" v-if="index < categorie.products.length/2">
-                                <h5 class="food-title">{{ product.name }}&ensp;<i class="fa fa-coffee" v-if="product.coffe"></i>
-                                    <template v-if="product.price">
-                                        <span class="pull-right food-price text-primary" v-if="!Array.isArray(product.price)">${{ product.price }}.00</span>
-                                        <span class="pull-right food-price text-primary" v-else>{{ product.price[0].name }}&ensp;${{ product.price[0].price }}.00&emsp;{{ product.price[1].name }}&ensp;${{product.price[1].price}}.00</span>
-                                    </template>
-                                </h5>
-                                <p class="food-text" v-if="!Array.isArray(product.description)" v-if="product.description">{{ product.description }}</p>
-                                <p class="food-text" v-else v-for="description in product.description" v-if="description.name">{{ description.name }}
-                                    <span class="pull-right description-price text-primary" v-if="description.price">${{ description.price }}.00</span>
-                                </p>
-                            </div>
-                        </div><!-- / menu-items -->
-                        <div class="col-md-6 menu-items fadeIn first" style="visibility: visible; animation-name: fadeIn;">
-                            <div v-for="(product,index) in categorie.products" v-if="index >= categorie.products.length/2">
-                                <h5 class="food-title">{{ product.name }}&ensp;<i class="fa fa-coffee" v-if="product.coffe"></i>
-                                    <template v-if="product.price">
-                                        <span class="pull-right food-price text-primary" v-if="!Array.isArray(product.price)">${{ product.price }}.00</span>
-                                        <span class="pull-right food-price text-primary" v-else>{{ product.price[0].name }}&ensp;${{product.price[0].price}}.00&emsp;{{product.price[1].name}}&ensp;${{product.price[1].price}}.00</span>
-                                    </template>
-                                </h5>
-                                <p class="food-text" v-if="!Array.isArray(product.description)" v-if="product.description">{{ product.description }}</p>
-                                <p class="food-text" v-else v-for="description in product.description" v-if="description.name">{{ description.name }}
-                                    <span class="pull-right description-price text-primary" v-if="description.price">${{ description.price }}.00</span>
-                                </p>
-                            </div>
-                        </div><!-- / menu-items -->
-                        <div class="col-md-12 menu-items fadeIn first" style="visibility: visible; animation-name: fadeIn; text-align:center;" v-if="categorie.description">
-                            </br>
-                            <h3 class="food-text"><i class="fa fa-coffee" v-if="categorie.description=='Incluyen café de olla'"></i>{{categorie.description}}</h3>
-                        </div><!-- / description -->
-                    </div><!-- / row -->
-                </div>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Rojo Delicias website">
+        <meta name="keywords" content="cafe, menu, postres, desayunos, huevo, frapuccino, bebidas, musica, comida, hamburguesas, wraps, rojo delicias, paninis, baguettes, huevo, omelette, waffle, hot cakes">
+        <meta name="author" content="Alexis Barba">
+        <!-- favicon -->
+        <link rel="icon" href="../images/thumbnail/solo.png">
+        <!-- page title -->
+        <title>Menu - Rojo Delicias</title>
+        <!-- bootstrap css -->
+        <link href="../assets/css/bootstrap.css" rel="stylesheet">
+        <!-- css -->
+        <link href="../assets/css/style.css" rel="stylesheet">
+        <link href="../assets/css/animate.css" rel="stylesheet">
+        <link href="../assets/css/magnific-popup.css" rel="stylesheet">
+        <link href="../assets/css/categorias.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body style="overflow: visible;">
+        <!-- preloader -->
+        <script src="../assets/js/preloader.js"></script>
+        <!-- / preloader -->
+            <!-- preloader -->
+            <div id="preloader" style="display: block;">
+                <div class="spinner spinner-round"></div>
             </div>
-        </section>
-    </div
-</section>
+            <!-- / preloader -->
+            <div id="top"></div>
 
-<!-- scroll to top -->
-<a href="#top" class="scroll-to-top page-scroll is-hidden" data-nav-status="toggle"><i class="fa fa-angle-up"></i></a>
-<!-- / scroll to top -->
+        <!-- header -->
+        <header>
+            <nav class="navbar navbar-default dark-bg page-nav navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><img src="../images/thumbnail/logo-inline.png" alt="logo" class="inline-logo"> <img src="../images/thumbnail/logo-collapsed.png" alt="logo" class="collapsed-logo"></a>
+                    </div><!-- / navbar-header -->
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="../">HOME</a></li>
+                            <li class="active"><a href="">MENU</a></li>
+                            <!--<li><a href="Canasta.html">CANASTA</a></li>-->
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div><!-- / container -->
+            </nav>
+        </header>
+        <!-- / header -->
 
-<!-- footer -->
-<footer>
-    <div class="container">
-        <p class="footer-info">© 2016 - 2019, <strong>Rojo</strong> Delicias.
-            <span class="social pull-right">
-                <a href="facebook.com/RojoDelicias"><i class="fa fa-facebook"></i></a>
-                <a href="instagram.com/rojodelicias"><i class="fa fa-instagram"></i></a>
-            </span>
-        </p>
-    </div><!-- / container -->
-</footer>
-<!-- / footer -->
+        <!-- content -->
+        <div class="space-80">&nbsp;</div>
+        <div id="menu">
+                <section v-for="categorie in categories">
+                    <div class="container" >
+                        <div class="page-header text-center menu-section">
+                            <h2 class="text-primary">{{ categorie.name }}&nbsp;</h2>
+                        </div><!-- / page-header -->
+                        <div class="menu-contenido">
+                            <template v-if="categorie.img">
+                                <img v-bind:src="'..' + categorie.img" alt="" class="food-img fadeInUp first" style="visibility: visible; animation-name: fadeInUp;">
+                            </template>
+                            <div class="row">
+                                <div class="col-md-6 menu-items fadeIn first" style="visibility: visible; animation-name: fadeIn;">
+                                    <div v-for="(product,index) in categorie.products" v-if="index < categorie.products.length/2">
+                                        <h5 class="food-title">{{ product.name }}&ensp;<i class="fa fa-coffee" v-if="product.coffe"></i>
+                                            <template v-if="product.price">
+                                                <span class="pull-right food-price text-primary" v-if="!Array.isArray(product.price)">${{ product.price }}.00</span>
+                                                <span class="pull-right food-price text-primary" v-else>{{ product.price[0].name }}&ensp;${{ product.price[0].price }}.00&emsp;{{ product.price[1].name }}&ensp;${{product.price[1].price}}.00</span>
+                                            </template>
+                                        </h5>
+                                        <p class="food-text" v-if="!Array.isArray(product.description)" v-if="product.description">{{ product.description }}</p>
+                                        <p class="food-text" v-else v-for="description in product.description" v-if="description.name">{{ description.name }}
+                                            <span class="pull-right description-price text-primary" v-if="description.price">${{ description.price }}.00</span>
+                                        </p>
+                                    </div>
+                                </div><!-- / menu-items -->
+                                <div class="col-md-6 menu-items fadeIn first" style="visibility: visible; animation-name: fadeIn;">
+                                    <div v-for="(product,index) in categorie.products" v-if="index >= categorie.products.length/2">
+                                        <h5 class="food-title">{{ product.name }}&ensp;<i class="fa fa-coffee" v-if="product.coffe"></i>
+                                            <template v-if="product.price">
+                                                <span class="pull-right food-price text-primary" v-if="!Array.isArray(product.price)">${{ product.price }}.00</span>
+                                                <span class="pull-right food-price text-primary" v-else>{{ product.price[0].name }}&ensp;${{product.price[0].price}}.00&emsp;{{product.price[1].name}}&ensp;${{product.price[1].price}}.00</span>
+                                            </template>
+                                        </h5>
+                                        <p class="food-text" v-if="!Array.isArray(product.description)" v-if="product.description">{{ product.description }}</p>
+                                        <p class="food-text" v-else v-for="description in product.description" v-if="description.name">{{ description.name }}
+                                            <span class="pull-right description-price text-primary" v-if="description.price">${{ description.price }}.00</span>
+                                        </p>
+                                    </div>
+                                </div><!-- / menu-items -->
+                                <div class="col-md-12 menu-items fadeIn first" style="visibility: visible; animation-name: fadeIn; text-align:center;" v-if="categorie.description">
+                                    </br>
+                                    <h3 class="food-text"><i class="fa fa-coffee" v-if="categorie.description=='Incluyen café de olla'"></i>{{categorie.description}}</h3>
+                                </div><!-- / description -->
+                            </div><!-- / row -->
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </div>
 
-<!-- javascript -->
-<script src="../assets/js/jquery_004.js"></script>
-<script src="../assets/js/bootstrap.js"></script>
+        <!-- scroll to top -->
+        <a href="#top" class="scroll-to-top page-scroll is-hidden" data-nav-status="toggle"><i class="fa fa-angle-up"></i></a>
+        <!-- / scroll to top -->
 
-<!-- sticky nav -->
-<script src="../assets/js/jquery_002.js"></script>
-<script src="../assets/js/scrolling-nav-sticky.js"></script>
-<!-- / sticky nav -->
+        <!-- footer -->
+        <footer id='footer'>
+            <div class="container">
+                <p class="footer-info">© 2016 - {{year}}, <strong>Rojo Delicias.</strong>
+                    <span class="social pull-right">
+                        <a href="facebook.com/RojoDelicias"><i class="fa fa-facebook"></i></a>
+                        <a href="instagram.com/rojodelicias"><i class="fa fa-instagram"></i></a>
+                    </span>
+                </p>
+            </div><!-- / container -->
+        </footer>
+        <!-- / footer -->
+    
+        <!-- javascript -->
+        <script src="../assets/js/jquery_004.js"></script>
+        <script src="../assets/js/bootstrap.js"></script>
+
+        <!-- sticky nav -->
+        <script src="../assets/js/jquery_002.js"></script>
+        <script src="../assets/js/scrolling-nav-sticky.js"></script>
+        <!-- / sticky nav -->
 
 
-<!-- gallery script -->
-<script src="../assets/js/custom.js"></script>
-<script src="../assets/js/jquery.js"></script>
+        <!-- hide nav -->
+        <script src="../assets/js/hide-nav.js"></script>
+        <!-- / hide nav -->
 
-<!-- hide nav -->
-<script src="../assets/js/hide-nav.js"></script>
-<!-- / hide nav -->
-
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-<script>
-    const app = new Vue({
-        el: '#app',
-        data: {
-            categories: [],
-            currentCategorie: null
-        },
-        methods: {
-            handleClick: function(id){
-                if (this.currentCategorie){
-                    if (this.currentCategorie==id){
-                        this.categories[id-1].show = false
-                        this.currentCategorie = null
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script>
+            const app = new Vue({
+                el: '#menu',
+                data: {
+                    categories: [],
+                    currentCategorie: null,
+                },
+                methods: {
+                    handleClick: function(id){
+                        if (this.currentCategorie){
+                            if (this.currentCategorie==id){
+                                this.categories[id-1].show = false
+                                this.currentCategorie = null
+                            }
+                            else{
+                                this.categories[this.currentCategorie-1].show = false
+                                this.categories[id-1].show = true
+                                this.currentCategorie = id
+                            }
+                            
+                        }
+                        else{
+                            this.categories[id-1].show = true
+                            this.currentCategorie = id
+                        }
                     }
-                    else{
-                        this.categories[this.currentCategorie-1].show = false
-                        this.categories[id-1].show = true
-                        this.currentCategorie = id
-                    }
+                },
+                created () {
+                    fetch('https://www.rojodelicias.com/src/api/menu-4.json')
+                        .then(response => response.json())
+                        .then(json => {
+                            this.categories = json.categorias
+                        })
                     
+                },
+                updated() {
                 }
-                else{
-                    this.categories[id-1].show = true
-                    this.currentCategorie = id
+            });
+            const year = new Vue({
+                el: '#footer',
+                data: {
+                    year: new Date().getFullYear()
                 }
-            }
-        },
-        created () {
-            fetch('https://www.rojodelicias.com/src/api/menu-4.json')
-                .then(response => response.json())
-                .then(json => {
-                    this.categories = json.categorias
-                })
-            
-        },
-        updated() {
-            
-        }
-    })
-</script>
-
-</body>
+            });
+        </script>
+    </body>
 </html>
