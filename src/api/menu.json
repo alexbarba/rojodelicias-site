@@ -109,11 +109,7 @@
 				{
 					"name": "Escamocha",
 					"description": "Fruta de temporada con jugo de naranja y lechera.",
-					"price": [
-						{
-							"price": 55.0
-						}
-					]
+					"price": 55
 				},
 				{
 					"name": "Biónico",
