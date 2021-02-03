@@ -1,0 +1,474 @@
+{
+	"categorias": [
+		{
+			"key": 1,
+			"name": "Entradas",
+			"show": false,
+			"products": [
+				{
+					"name": "Hot Cakes",
+					"description": "(3 pzas) Decorados con azúcar glass y fresa.",
+					"price": 52.0
+				},
+				{
+					"name": "Pan Francés",
+					"description": "(3 pzas) Decorados con azúcar glass y fresa.",
+					"price": 52.0
+				},
+				{
+					"name": "Molletes dulces",
+					"description": "Con mantequilla.",
+					"price": 38.0
+				},
+				{
+					"name": "Molletes Universitarios   ",
+					"description": "Tradicionales con frijoles y queso gratinado. Añade jamón por +$10.",
+					"price": 45.0
+				},
+				{
+					"name": "Molletes Mexicanos  ",
+					"description": "Frijoles, queso gratinado, salsa pico de gallo. Elígelos con sirloin o chorizo.",
+					"price": 80.0
+				},
+				{
+					"name": "Sandwich o torta",
+					"description": [
+						{
+							"name": "Panela o pechuga de pavo.",
+							"price": 42.0
+						},
+						{
+							"name": "Pollo o pierna.",
+							"price": 50.0
+						}
+					]
+				},
+				{
+					"name": "Club Sandwich",
+					"description": "Ensalada de pollo, jamón, tocino y aguacate, acompañado de papas a la francesa.",
+					"price": 90.0
+				},
+				{
+					"name": "Papas",
+					"description": "Gajo o a la francesa.",
+					"price": 40.0
+				}
+			]
+		},
+		{
+			"key": 2,
+			"name": "Waffles",
+			"show": false,
+			"products": [
+				{
+					"name": "Waffle Especial ",
+					"description": "Plátano, cajeta, nuez y nieve.",
+					"price": 85.0
+				},
+				{
+					"name": "Waffle Ferrero",
+					"description": "Nutella, nuez, nieve y un chocolate Ferrero Rocher.",
+					"price": 90.0
+				},
+				{
+					"name": "Waffle Frutal",
+					"description": "Manzana, melón, fresa, kiwi, uva, arándano y lechera.",
+					"price": 85.0
+				},
+				{
+					"name": "Waffle Pay Fresa",
+					"description": "Queso-crema, fresas, mermelada de fresa y lechera.",
+					"price": 80.0
+				}
+			]
+		},
+		{
+			"key": 3,
+			"name": "Delicias Ligeras",
+			"show": false,
+			"description": "Frutas disponibles: manzana roja y verde, melón, papaya, pera, fresa, plátano, guayaba y uva (pueden variar según temporada). Adicional: granola, pasas o lechera (+$6) y nuez o almendra (+$8)",
+			"products": [
+				{
+					"name": "Plato de Fruta",
+					"description": "",
+					"price": 45.0
+				},
+				{
+					"name": "Yogur con fruta",
+					"description": "Con granola y miel.",
+					"price": [
+						{
+							"price": 60.0
+						},
+						{
+							"name": "½",
+							"price": 40.0
+						}
+					]
+				},
+				{
+					"name": "Escamocha",
+					"description": "Fruta de temporada con jugo de naranja y lechera.",
+					"price": [
+						{
+							"price": 55.0
+						}
+					]
+				},
+				{
+					"name": "Biónico",
+					"description": "Preparado de fruta con una mezcla dulce, pasas y coco.",
+					"price": [
+						{
+							"price": 65.0
+						},
+						{
+							"name": "½",
+							"price": 45.0
+						}
+					]
+				}
+			]
+		},
+		{
+			"key": 4,
+			"name": "Desayunos",
+			"show": false,
+			"products": [
+				{
+					"name": "Huevos al gusto ",
+					"description": "2 Ingredientes, revueltos o estrellados. Se acompaña con frijoles y chilaquiles. Opciones: jamón, salchicha, tortilla, vegetales, pechuga de pavo, champiñones, tocino, chorizo ranchero, salsas o a la mexicana.",
+					"price": 75.0,
+					"coffe": true
+				},
+				{
+					"name": "Divorciados",
+					"description": "Huevos estrellados sobre tortilla dorada y jamón, separados por salsa roja y verde.",
+					"price": 79.0,
+					"coffe": true
+				},
+				{
+					"name": "Norteños",
+					"description": "Huevos con machaca. Se acompaña con frijoles y chilaquiles.",
+					"price": 105.0,
+					"coffe": true
+				},
+				{
+					"name": "Omelette al gusto ",
+					"description": "2 Ingredientes y queso. Se acompaña con frijoles y chilaquiles.",
+					"price": 85.0,
+					"coffe": true
+				},
+				{
+					"name": "Ligero ",
+					"description": "3 claras de huevo, panela, espinacas y bañado en nuestra salsa verde. Se acompaña con nopal asado y ensalada.",
+					"price": 90.0,
+					"coffe": true
+				},
+				{
+					"name": "Del Mar",
+					"description": "Camarones, morrón rojo y perejil, gratinado con mozzarella. Se acompaña con una entomatada y ensalada.",
+					"price": 120.0,
+					"coffe": true
+				},
+				{
+					"name": "Chilaquiles",
+					"price": 65.0,
+					"coffe": true,
+					"description": [
+						{
+							"name": "Con sombrero",
+							"price": 85.0
+						},
+						{
+							"name": "Pollo",
+							"price": 95.0
+						},
+						{
+							"name": "Arrachera",
+							"price": 110.0
+						},
+						{
+							"name": "Gratinados +$12"
+						}
+					]
+				},
+				{
+					"name": "Carne con chile",
+					"price": 90.0,
+					"coffe": true
+				}
+			]
+		},
+		{
+			"key": 5,
+			"name": "Delicias Mexicanas",
+			"show": false,
+			"products": [
+				{
+					"name": "Enfrijoladas",
+					"description": "(3 pzas) Rellenas de pollo bañadas en una exquisita salsa de frijol y queso.",
+					"price": 80.0
+				},
+				{
+					"name": "Enchiladas Suizas",
+					"description": "(3 pzas) Rellenas de pollo bañadas en salsa verde cremosa y queso gratinado.",
+					"price": 95.0
+				},
+				{
+					"name": "Quesadilla Orden",
+					"price": 20.0,
+					"description": "Tortilla grande de trigo, rellena de queso."
+				},
+				{
+					"name": "Quesadilla Orden",
+					"description": [
+						{
+							"name": "(2pzas) Asada, chorizo o arrachera",
+							"price": 80.0
+						},
+						{
+							"name": "(2pzas) Jamón o champiñón y cebolla",
+							"price": 70.0
+						}
+					]
+				}
+			]
+		},
+		{
+			"key": 6,
+			"name": "Baguettes",
+			"show": false,
+			"products": [
+				{
+					"name": "Chicken",
+					"description": "Pechuga de pollo a la plancha, morrón, aguacate, champiñones y queso manchego.",
+					"price": 89.0
+				},
+				{
+					"name": "Carnes frías",
+					"price": 89.0,
+					"description": "Jamón, salami, pepperoni, queso manchego y vegetales."
+				},
+				{
+					"name": "Mexicano",
+					"price": 89.0,
+					"description": "Sirloin, jalapeño, champiñones, morrón, cebolla y queso mozzarella."
+				}
+			]
+		},
+		{
+			"key": 7,
+			"name": "Wraps",
+			"show": false,
+			"description": "Acompañados de papas gajo.",
+			"products": [
+				{
+					"name": "Norteño",
+					"description": "Arrachera (100 gr), queso manchego, aguacate y salsa mexicana.",
+					"price": 95.0
+				},
+				{
+					"name": "Venecia",
+					"price": 85.0,
+					"description": "Pollo pesto, queso manchego y espinacas."
+				},
+				{
+					"name": "Camarón",
+					"price": 115.0,
+					"description": "Camarones (100 gr) salteados con jitomate, cebolla, pimiento rojo y queso manchego."
+				}
+			]
+		},
+		{
+			"key": 8,
+			"name": "Paninis",
+			"show": false,
+			"products": [
+				{
+					"name": "Pizza",
+					"description": "Queso-crema, pepperoni, salami, queso manchego, aceituna negra, cebolla y morrón.",
+					"price": 90.0
+				},
+				{
+					"name": "Ligero",
+					"description": "Panela asada, jitomate, albahaca.",
+					"price": 85.0
+				},
+				{
+					"name": "Italiano",
+					"price": 85.0,
+					"description": "Pesto, jamón de pavo, jitomate, morrón y queso."
+				},
+				{
+					"name": "Pollo Finas Hierbas",
+					"price": 90.0,
+					"description": "Pollo, chimichurri, aceituna negra, tocino, queso y albahaca."
+				}
+				{
+					"name": "Mexicano",
+					"price": 100.0,
+					"description": "Deliciosa arrachera con chimichurri, queso mozzarella, pimiento verde y cebolla."
+				},
+				{
+					"name": "Marimar",
+					"price": 105.0,
+					"description": "Camarones a la plancha (100 grs), queso gratinado, aderezo de tomates deshidratados, cebolla caramelizada y champiñones."
+				}
+			]
+		},
+		{
+			"key": 10,
+			"name": "Ensaladas",
+			"show": false,
+			"products": [
+				{
+					"name": "César",
+					"price": 69.0,
+					"description": "Lechuga orejona, pollo a la plancha, parmesano molido y crutones."
+				},
+				{
+					"name": "Ligera",
+					"price": 69.0,
+					"description": "Mix de lechugas, panela, zanahoria, pepino, espinacas, aguacate y apio."
+				},
+				{
+					"name": "Atún",
+					"price": 69.0,
+					"description": "Lechuga picada, atún con queso crema, cebolla, apio, morrón, jitomate y pepino. Acompañada con galletas saladas."
+				}
+			]
+		},
+		{
+			"key": 11,
+			"name": "Hamburguesas",
+			"show": false,
+			"description": "Acompañadas de papas a la francesa o papas gajo.",
+			"products": [
+				{
+					"name": "Clásica",
+					"description": "Sirloin, queso amarillo, lechuga, jitomate y cebolla.",
+					"price": 80.0
+				},
+				{
+					"name": "Marinera",
+					"price": 105.0,
+					"description": "Camarones gratinados con cebolla, pimiento morrón, champiñones."
+				},
+				{
+					"name": "La Tri",
+					"price": 100.0,
+					"description": "Sirloin, chorizo ranchero, jitomate, cebolla, panela y lechuga acompañada de salsa de aguacate picosita."
+				},
+				{
+					"name": "Bacon",
+					"price": 95.0,
+					"description": "Sirloin, tocino y guacamole."
+				}
+			]
+		},
+
+		{
+			"key": 12,
+      "name": "Bebidas",
+      "description": "(473ml)"
+			"show": false,
+			"products": [
+				{
+					"name": "Jugo de naranja",
+					"price": 40.0,
+					"description": "(473ml)."
+				},
+				{
+					"name": "Jugo Verde",
+					"price": 42,
+					"description": "(473 ml) Naranja, nopal, apio, piña y perejil."
+        },
+        {
+					"name": "Jugo Antigripal",
+					"price": 42,
+					"description": "(473 ml) Guayaba, naranja, apio y miel."
+				},
+				{
+					"name": "Chocomilk",
+					"price": 35
+				},
+				{
+					"name": "Agua Fresca",
+					"price": 38
+				}
+			]
+		},
+		{
+			"key": 13,
+			"name": "Barra Fría",
+			"show": false,
+			"products": [
+				{
+					"name": "Frapuccinos",
+					"description": "M (355 ml) G (473 ml)."
+				},
+				{
+					"name": "Sencillo",
+					"price": 60
+				},
+				{
+					"name": "Con Nieve",
+					"price": 70
+				},
+				{
+					"name": "Oreo",
+					"price": 70
+				},
+				{
+					"name": "Nutella",
+					"price": 70
+				},
+				{
+					"name": "Cajeta",
+					"price": 70
+				},
+				{
+					"name": "Ferrero",
+					"price": 80
+				},
+				{
+					"name": "Malteada",
+					"price": 58
+				},
+				{
+					"name": "Smoothie",
+					"price": 50
+				}
+			]
+		},
+		{
+			"key": 14,
+      "name": "Barra Caliente",
+      "description": "(473 ml)",
+			"show": false,
+			"products": [
+				{
+					"name": "Café de olla",
+					"price": 28
+				},
+				{
+					"name": "Americano",
+					"price": 22
+				},
+				{
+					"name": "Capuccino",
+					"price": 38.0
+				},
+				{
+					"name": "Chai Latte",
+					"price": 49.0
+				},
+				{
+					"name": "Chocolate Caliente",
+					"price": 42.0
+				}
+			]
+		}
+	]
+}

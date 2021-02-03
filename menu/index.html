@@ -171,7 +171,7 @@
                     }
                 },
                 created () {
-                    fetch('https://www.rojodelicias.com/src/api/menu-4.json')
+                    fetch('https://www.rojodelicias.com/src/api/menu.json')
                         .then(response => response.json())
                         .then(json => {
                             this.categories = json.categorias
