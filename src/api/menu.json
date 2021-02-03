@@ -304,7 +304,7 @@
 					"name": "Pollo Finas Hierbas",
 					"price": 90.0,
 					"description": "Pollo, chimichurri, aceituna negra, tocino, queso y albahaca."
-				}
+				},
 				{
 					"name": "Mexicano",
 					"price": 100.0,
@@ -370,8 +370,8 @@
 
 		{
 			"key": 12,
-      "name": "Bebidas",
-      "description": "(473ml)"
+			"name": "Bebidas",
+			"description": "(473ml)",
 			"show": false,
 			"products": [
 				{
@@ -383,8 +383,8 @@
 					"name": "Jugo Verde",
 					"price": 42,
 					"description": "(473 ml) Naranja, nopal, apio, piña y perejil."
-        },
-        {
+				},
+				{
 					"name": "Jugo Antigripal",
 					"price": 42,
 					"description": "(473 ml) Guayaba, naranja, apio y miel."
@@ -444,8 +444,8 @@
 		},
 		{
 			"key": 14,
-      "name": "Barra Caliente",
-      "description": "(473 ml)",
+			"name": "Barra Caliente",
+			"description": "(473 ml)",
 			"show": false,
 			"products": [
 				{
