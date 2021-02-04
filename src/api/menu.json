@@ -215,11 +215,6 @@
 				},
 				{
 					"name": "Quesadilla Orden",
-					"price": 20.0,
-					"description": "Tortilla grande de trigo, rellena de queso."
-				},
-				{
-					"name": "Quesadilla Orden",
 					"description": [
 						{
 							"name": "(2pzas) Asada, chorizo o arrachera",
@@ -369,7 +364,7 @@
 		{
 			"key": 12,
 			"name": "Bebidas",
-			"description": "(473ml)",
+			"description": "473ml Todas las bebidas",
 			"show": false,
 			"products": [
 				{
@@ -392,7 +387,7 @@
 					"price": 35
 				},
 				{
-					"name": "Agua Fresca",
+					"name": "Agua Fresca Litro",
 					"price": 38
 				}
 			]
@@ -400,6 +395,7 @@
 		{
 			"key": 13,
 			"name": "Barra Fría",
+			"description": "473ml Todas las bebidas",
 			"show": false,
 			"products": [
 				{
@@ -443,7 +439,7 @@
 		{
 			"key": 14,
 			"name": "Barra Caliente",
-			"description": "(473 ml)",
+			"description": "473ml Todas las bebidas",
 			"show": false,
 			"products": [
 				{
