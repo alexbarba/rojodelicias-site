@@ -136,43 +136,37 @@
 				{
 					"name": "Huevos al gusto ",
 					"description": "2 Ingredientes, revueltos o estrellados. Se acompaña con frijoles y chilaquiles. Opciones: jamón, salchicha, tortilla, vegetales, pechuga de pavo, champiñones, tocino, chorizo ranchero, salsas o a la mexicana.",
-					"price": 75.0,
-					"coffe": true
+					"price": 75.0
 				},
 				{
 					"name": "Divorciados",
 					"description": "Huevos estrellados sobre tortilla dorada y jamón, separados por salsa roja y verde.",
-					"price": 79.0,
-					"coffe": true
+					"price": 79.0
 				},
 				{
 					"name": "Norteños",
 					"description": "Huevos con machaca. Se acompaña con frijoles y chilaquiles.",
-					"price": 105.0,
-					"coffe": true
+					"price": 105.0
 				},
 				{
 					"name": "Omelette al gusto ",
 					"description": "2 Ingredientes y queso. Se acompaña con frijoles y chilaquiles.",
-					"price": 85.0,
-					"coffe": true
+					"price": 85.0
 				},
 				{
 					"name": "Ligero ",
 					"description": "3 claras de huevo, panela, espinacas y bañado en nuestra salsa verde. Se acompaña con nopal asado y ensalada.",
-					"price": 90.0,
-					"coffe": true
+					"price": 90.0
 				},
 				{
 					"name": "Del Mar",
 					"description": "Camarones, morrón rojo y perejil, gratinado con mozzarella. Se acompaña con una entomatada y ensalada.",
-					"price": 120.0,
-					"coffe": true
+					"price": 120.0
 				},
 				{
 					"name": "Chilaquiles",
 					"price": 65.0,
-					"coffe": true,
+
 					"description": [
 						{
 							"name": "Con sombrero",
@@ -193,8 +187,7 @@
 				},
 				{
 					"name": "Carne con chile",
-					"price": 90.0,
-					"coffe": true
+					"price": 90.0
 				}
 			]
 		},
